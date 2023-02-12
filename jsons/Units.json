@@ -207,12 +207,12 @@
 	},
 	
 	// First Age
-	{
+		{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles"],
-		"cost": 60
+		"cost": 70
 	},
 	{
 		"name": "Settler",
@@ -229,9 +229,24 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"uniques": ["Ignores terrain cost", "Never appears as a Barbarian unit"],
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit","Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
-	},	
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
 	{
 		"name": "Scavenger",
 		"replaces": "Scout",
@@ -241,16 +256,6 @@
 		"strength": 5,
 		"cost": 25,
 		"uniques": ["Ignores terrain cost"],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Warrior",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
 	{
