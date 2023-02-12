@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Cultured",
+        "friendBonusUniques": [
+            "[+3 Culture] <before the [Second Age]>",
+            "[+6 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+13 Culture] <starting from the [Fourth Age]>"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture] <before the [Second Age]>",
+            "[+12 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+26 Culture] <starting from the [Fourth Age]>"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Maritime",
+        "friendBonusUniques": ["[+2 Food] [in capital]"],
+        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Mercantile",
+        "friendBonusUniques": [
+            "[+2 Happiness] <before the [Second Age]>",
+            "[+3 Happiness] <starting from the [Second Age]>"
+        ],
+        "allyBonusUniques": [
+            "[+2 Happiness] <before the [Second Age]>",
+            "[+3 Happiness] <starting from the [Second Age]>",
+            "Provides a unique luxury"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Militaristic",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[17] turns"],
+        "color": [255, 0, 0]
+    },
+]

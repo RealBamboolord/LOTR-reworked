@@ -1,0 +1,64 @@
+   [
+    {
+        "name": "First Age",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Second Age",
+        "researchAgreementCost": 200,
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Warrior",
+        "startingGold": 10,
+        "startingCulture": 125,
+        "settlerPopulation": 1,
+		    "settlerBuildings": ["Monument", "Granary"],
+        "baseUnitBuyCost": 250,
+        "embarkDefense": 6,
+        "startPercent": 15,
+        "iconRGB": [233, 31, 99]
+    },
+    {
+        "name": "Third Age",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Spearman",
+        "startingGold": 50,
+        "startingCulture": 175,
+        "settlerPopulation": 2,
+        "settlerBuildings": ["Monument", "Granary", "Lighthouse", "Walls"],
+        "baseUnitBuyCost": 350,
+        "embarkDefense": 10,
+        "startPercent": 30,
+        "iconRGB": [157, 39, 176]
+    },
+    {
+        "name": "Fourth Age",
+        "researchAgreementCost": 300,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Pikeman",
+        "startingGold": 150,
+        "startingCulture": 300,
+        "settlerPopulation": 3,
+        "settlerBuildings": ["Monument", "Granary", "Lighthouse", "Walls", "Market", "Workshop", "Temple", "Library", "Colosseum"],
+		    "startingObsoleteWonders": ["The Great Archive", "Alqualondë"],
+        "baseUnitBuyCost": 500,
+        "embarkDefense": 15,
+        "startPercent": 50,
+        "iconRGB": [33, 150, 243]
+    }
+]
