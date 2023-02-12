@@ -55,7 +55,7 @@
 		"cost": 120,
 		"promotions": ["Hero"],
 		"requiredTech": "Horseback Riding",
-		"uniques": ["Consumes [1] [Special]", "Only available <with [Special]>", 
+		"uniques": ["Never appears as a Barbarian unit","Consumes [1] [Special]", "Only available <with [Special]>", 
 			"[200]% Strength <vs [Balrog] units>", "Ignores Zone of Control"],
 	},
 	{
