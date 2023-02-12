@@ -9,6 +9,5 @@
 		"Cannot build [Settler] units <when below [-10] Happiness>",
 		"Rebel units may spawn <when below [-20] Happiness>",
 		"Gain a free [RSupply] [in all cities]",
-		"Gain a free [Rings] [in capital]"
 	]
 }
