@@ -229,13 +229,12 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit","Ignores terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Warrior",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
