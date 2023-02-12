@@ -21,23 +21,23 @@
 	},
 					{
 		"name": "Fellbeast",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 	},
 						{
 		"name": "Nazgul",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 	},
 		{
 		"name": "Elven Rings",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 	},
 		{
 		"name": "Men Rings",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 	},
 		{
 		"name": "Dwarven Rings",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 	},
 	// Bonus resources
 	{
