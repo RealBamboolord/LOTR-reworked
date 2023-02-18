@@ -14,8 +14,8 @@
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "Hi Theoden, master of the horses !",
+		"startIntroPart2": "You have awaken from your long slumber, and now the rohirrims are counting on you to lead them to a brighter tomorrow. Your neighbours won't leave you much room for peace and you may have to carve your peace with the tip of the spear. But, thanks to your leadership, Rohan might become strong enough to tip the scale in a war between Gondor and Mordor, who knows ?",
 		
 		"declaringWar": "Muster the Rohirrim!",
 		"attacked": "Oh well, I presume you know what you're doing.",
@@ -42,8 +42,8 @@
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "Hi Aragorn, heir to the ancient kings !",
+		"startIntroPart2": "You have come back to the ivory tower to lead your people against their many foes. The ancient evil is rising in the east, but danger may also com from the south and the haradrim or the north from the easterlings, the dwarves or even the elves. Will your allies in Rohan be ready to answer the call or will they be too occupied with Isengard ? Only you can now save and rebuild a strong and safe Gondor nation and... who knows, maybe reunite Gondor and Arnor ?",
 		
 		"declaringWar": "For the White City!",
 		"attacked": "Oh well, I presume you know what you're doing.",
@@ -70,8 +70,8 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "Hi Saruman, Leader of the mighty Istari",
+		"startIntroPart2": "After hundreds of years, the evil power of the east is returning and this time, good intentions won't be enough to stop it. As the leader of the Istari, sent from the West, you alone could even dream of facing him. But do you have the strengh you need or do you need to carve yourself a great empire before facing leading the offensive ? History will decide.",
 		
 		"declaringWar": "A new power is rising!",
 		"attacked": "Oh well, I presume you know what you're doing.",
@@ -376,7 +376,7 @@
 		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [211, 220, 103],
-		"cities": ["Lake Town"]
+		"cities": ["Gray Havens"]
 	},
 	{
 		"name": "Dale",
