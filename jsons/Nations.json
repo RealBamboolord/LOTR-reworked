@@ -98,8 +98,8 @@
 		"startBias": ["Avoid [Grassland]"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "Hail to Sauron, the reborn star of the East",
+		"startIntroPart2": "For too long have you been running, after flying Numenor, and later Dol Guldur, your forces are now strong enough to reveal yourself and lead them to a new age of glory. Rally your allies and crush your ennemies to make Middle Earth and later Arda kneel before you. You are the only power worth standing.",
 		
 		"declaringWar": "You cannot hide!",
 		"attacked": "Oh well, I presume you know what you're doing.",
@@ -126,8 +126,8 @@
 				"style": "Orc",
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "Hi King of Nine Riders",
+		"startIntroPart2": "The West is weak, Arnor is on its knees, Gondor is attacked on all sides, the elves and the dwarves are closing themselves from the outside. It is time to rise again and carve yourself a new kingdom. You can be the trusted and worthy servant of Sauron, or who knows, even seize the opportunity to be the new successor of Melkor and use the One Ring to rule over all living things on Middle Earth. The World may now be yours to grasp !",
 		
 		"declaringWar": "No man can defeat me!",
 		"attacked": "Oh well, I presume you know what you're doing.",
@@ -154,8 +154,8 @@
 				"style": "Orc",
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "Glory to you Azog",
+		"startIntroPart2": "For too long have you been crawling under the earth. Humans are now at war with each other and under attack from the east, not to speak of the elven kingdoms and the dwarves. Your time has come. Will you be able to make a great nation of the goblins or will you stay a tiny vassal under Mordor boots ? Your futur will depends on your actions, you must now earn the fear your people placed upon you !",
 		
 		"declaringWar": "Argh!",
 		"attacked": "Oh well, I presume you know what you're doing.",
