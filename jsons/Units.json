@@ -196,14 +196,12 @@
 	},
 	{
 		"name": "Balrog",
-		"unitType": "Ranged",
+		"unitType": "Melee",
 		"uniqueTo": "Goblins",
-		"movement": 2,
+		"movement": 3,
 		"strength": 20,
-		"rangedStrength": 28,
-		"range": 1,
 		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "Must set up to ranged attack", "Will not be displayed in Civilopedia"]
+		"uniques": ["Unbuildable",]
 	},
 	
 	// First Age
@@ -212,7 +210,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles"],
-		"cost": 70
+		"cost": 70,
 	},
 	{
 		"name": "Settler",
@@ -221,7 +219,7 @@
 		"cost": 106,
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
 	},
 	{
 		"name": "Scout",
@@ -230,7 +228,7 @@
 		"strength": 5,
 		"cost": 25,
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit","Ignores terrain cost"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
 	},
 	{
 		"name": "Warrior",
@@ -242,7 +240,7 @@
 		"upgradesTo": "Swordsman",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
-        "civilopediaText": [
+                "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
 		]
 	},
