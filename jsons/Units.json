@@ -43,7 +43,7 @@
 		"strength": 16,
 		"promotions": ["Hero"],
 		"upgradesTo": "Gandalf, the White",
-		"uniques": ["Consumes [1] [Special]", "Unbuildable", "[200]% Strength <vs [Balrog] units>"],
+		"uniques": ["Consumes [1] [Special]", "Unbuildable", "[50]% Strength <vs [Durin's Bane] units>"],
 	},
 	{
 		"name": "Gandalf, the White",
@@ -166,7 +166,7 @@
 		"range": 2,
 		"rangedStrength": 18,
 		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "Must set up to ranged attack", "[+15]% Strength bonus for [Military] units within [2] tiles"],
+		"uniques": ["Unbuildable", "[+15]% Strength bonus for [Military] units within [2] tiles"],
 	},
 	{
 		"name": "Shelob",
@@ -195,7 +195,7 @@
 		"uniques": ["Unbuildable", "No movement cost to pillage"],
 	},
 	{
-		"name": "Balrog",
+		"name": "Durin's Bane",
 		"unitType": "Melee",
 		"uniqueTo": "Goblins",
 		"movement": 3,
