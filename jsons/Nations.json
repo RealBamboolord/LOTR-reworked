@@ -151,7 +151,7 @@
 		"leaderName": "Azog",
 		"adjective": ["Goblin"],
 		"startBias": ["Hill"],
-				"style": "Orc",
+		"style": "Orc",
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Glory to you Azog",
@@ -171,7 +171,7 @@
 		"innerColor": [125, 145, 26],
 		"uniqueName": "Horror of the Deeps",
 		"uniqueText": "+20% Combat Bonus in Friendly Land. Melee units gain 50% more Experience from combat. A Balrog appears in your capital when you discover Mining"
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[50]% XP gained from combat <for [Melee] units>","Receive free [Balrog] when you discover [Mining]"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[50]% XP gained from combat <for [Melee] units>","Receive free [Durin's Bane] when you discover [Mining]"],
 		"cities": ["Moria","Goblin town","Withered Heath","Ettenmoors","High Pass","Misty Mountains","Grey Mountains","Dwarrodelf","Glaurung","Ancalagon","Scatha","Gram Mountain","Rhimdath","Cold Fields","Hoardale"]
 	},
 							{
