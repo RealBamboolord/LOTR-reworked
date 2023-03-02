@@ -368,7 +368,7 @@
 	},
 	{
 		"name": "Ent",
-		"uniqueTo": "Sindar Elves",
+		"uniqueTo": "Entwood",
 		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 9,
@@ -377,6 +377,17 @@
 		"requiredResource": "SpecialEnt",
 		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Rough terrain penalty", "Can build only one per city with Forests"],
 		"attackSound": "throw"
+	},
+	{
+		"name": "Giant Spider",
+		"uniqueTo": "Sindar Elves",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Trapping",
+		"uniques": ["No defensive terrain bonus", "[+25]% Strength <in [Forest] tiles> <when attacking>", "[+25]% Strength <in [Jungle] tiles> <when attacking>","Invisible to non-adjacent units] <in [Forest] tiles>","Double movement in [Forest] <in [Foreign Land] tiles>","Heals [20] damage if it kills a unit"]
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Wainrider",
