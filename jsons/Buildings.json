@@ -279,10 +279,10 @@
 	},
 	{
 		"name": "Ent Supply",
-		"uniqueTo": "Sindar Elves",
-		"cost": -1,
+		"uniqueTo": "Entwood",
+		"cost": 1,
 		"hurryCostModifier": 40,
-		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [1] [SpecialEnt]", "Must be next to [Forest]", "Unsellable"],
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [8] [SpecialEnt]", "Unsellable"],
 	},
 	{
 		"name": "Harad Training Grounds",
