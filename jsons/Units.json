@@ -380,7 +380,7 @@
 	},
 	{
 		"name": "Giant Spider",
-		"uniqueTo": "Sindar Elves",
+		"uniqueTo": Shelob's Lair",
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 16,
