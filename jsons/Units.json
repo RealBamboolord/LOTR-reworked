@@ -369,7 +369,7 @@
 		"strength": 25,
 		"cost": 130,
 		"requiredTech": "Physics",
-		"uniques": ["Ignores terrain cost","[+50]% Strength <vs cities>","[+25]% Strength <in [Mountains] tiles>", "Invisible to non-adjacent units <in [Mountains] tiles>","[-60]% Strength <in [Open terrain] tiles>","[-50]% Strength <in [Vegatation] tiles>"]
+		"uniques": ["Ignores terrain cost","[+50]% Strength <vs cities>","[+25]% Strength <in [Mountains] tiles>", "Invisible to non-adjacent units <in [Mountains] tiles>","[-60]% Strength <in [Open terrain] tiles>","[-50]% Strength <in [Vegetation] tiles>"]
 
 		"attackSound": "throw"
 	},
@@ -767,6 +767,18 @@
 		"attackSound": "throw"
 	},
 	{
+		"name": "Cave Troll",
+		"uniqueTo": "Goblins",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 25,
+		"cost": 130,
+		"requiredTech": "Physics",
+		"uniques": ["Ignores terrain cost","[+50]% Strength <vs cities>","[+25]% Strength <in [Mountains] tiles>", "Invisible to non-adjacent units <in [Mountains] tiles>","[-60]% Strength <in [Open terrain] tiles>","[-50]% Strength <in [Vegetation] tiles>"]
+
+		"attackSound": "throw"
+	},
+	{
 		"name": "Longswordsman",
 		"unitType": "Melee",
 		"movement": 2,
@@ -863,7 +875,7 @@
 		"cost": 245,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "[+50]% Strength <vs [Melee] units>", "No defensive terrain bonus", "[-33]% Strength <vs cities>"],
+		"uniques": ["Can move after attacking", "[-15]% Strength for enemy [Land] units in adjacent [Land] tiles", "No defensive terrain bonus", "[-33]% Strength <vs cities>"],
 		"promotions": ["Formation I"],
 		"attackSound": "horse"
 	},
