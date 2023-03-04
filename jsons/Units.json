@@ -43,7 +43,7 @@
 		"strength": 16,
 		"promotions": ["Hero"],
 		"upgradesTo": "Gandalf, the White",
-		"uniques": ["Consumes [1] [Special]", "Unbuildable", "[200]% Strength <vs [Balrog] units>"],
+		"uniques": ["Consumes [1] [Special]", "Unbuildable", "[50]% Strength <vs [Balrog] units>"],
 	},
 	{
 		"name": "Gandalf, the White",
@@ -56,12 +56,12 @@
 		"promotions": ["Hero"],
 		"requiredTech": "Horseback Riding",
 		"uniques": ["Never appears as a Barbarian unit","Consumes [1] [Special]", "Only available <with [Special]>", 
-			"[200]% Strength <vs [Balrog] units>", "Ignores Zone of Control"],
+			"[50]% Strength <vs [Balrog] units>", "Ignores Zone of Control"],
 	},
 	{
 		"name": "Eowyn",
 		"unitType": "Mounted",
-		"movement": 5,
+		"movement": 4,
 		"strength": 14,
 		"promotions": ["Hero"],
 		"uniques": ["Unbuildable", "[300]% Strength <vs [Witch-King] units>"],
@@ -163,7 +163,7 @@
 		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 18,
-		"range": 2,
+		"range": 3,
 		"rangedStrength": 18,
 		"promotions": ["Hero"],
 		"uniques": ["Unbuildable", "Must set up to ranged attack", "[+15]% Strength bonus for [Military] units within [2] tiles"],
@@ -354,7 +354,6 @@
 	},
 	{
 		"name": "Cave Troll",
-		"replaces": "Chariot Archer",
 		"uniqueTo": "Goblins",
 		"unitType": "Ranged",
 		"movement": 3,
@@ -489,19 +488,18 @@
 	},
 	{
 		"name": "Spider Rider"
-		"replaces": "Horseman",
-		"unitType": "Mounted",
+		"replaces": "Chariot Archer",
+		"unitType": "Ranged",
 		"uniqueTo": "Goblins",
 		"movement": 4,
-		"strength": 12,
-		"rangedStrength": 14,
-		"cost": 75,
+		"strength": 8,
+		"rangedStrength": 13,
+		"cost": 70,
 		"requiredTech": "Horseback Riding",
-		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "horse"
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Ballista",
