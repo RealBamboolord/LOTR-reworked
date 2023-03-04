@@ -331,7 +331,7 @@
 	},
 		{
 		"name": "Hero", // Heroic Epic
-		"uniques": ["Hero","Access to Hero promotions"]
+		"uniques": ["Hero","Damage is ignored when determining unit Strength"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
