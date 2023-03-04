@@ -802,6 +802,19 @@
 		"requiredTech": "Theology"
 	},
 	{
+		"name": "Elvenking's Halls",
+		"uniqueTo": "Sindar Elves",
+		"replaces": "Garden",
+		"cityStrength": 5,
+		"culture": 1,
+		"production": 1,
+		"cost": 120,
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Vegetation]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
 		"name": "Monastery",
 		"maintenance": 0,
 		"specialistSlots": {"Sculptor": 1},
