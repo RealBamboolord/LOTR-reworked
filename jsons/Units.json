@@ -677,9 +677,9 @@
 		"attackSound": "horse"
 	},
         {
-		"name": "Warg Riders",
+		"name": "Warg Rider",
 		"unitType": "Mounted",
-		"replaces": "Knights",
+		"replaces": "Knight",
 		"uniqueTo": "Goblins",
 		"movement": 3,
 		"strength": 23,
