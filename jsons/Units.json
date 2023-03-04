@@ -44,6 +44,7 @@
 		"promotions": ["Hero"],
 		"upgradesTo": "Gandalf, the White",
 		"uniques": ["Consumes [1] [Special]", "Unbuildable", "[+50]% Strength <vs [Balrog] units> <with [50]% chance>"],
+
 	},
 	{
 		"name": "Gandalf, the White",
@@ -61,7 +62,7 @@
 	{
 		"name": "Eowyn",
 		"unitType": "Mounted",
-		"movement": 5,
+		"movement": 4,
 		"strength": 14,
 		"promotions": ["Hero"],
 		"uniques": ["Unbuildable", "[300]% Strength <vs [Witch-King] units>"],
@@ -362,7 +363,6 @@
 	},
 	{
 		"name": "Cave Troll",
-		"replaces": "Chariot Archer",
 		"uniqueTo": "Goblins",
 		"unitType": "Ranged",
 		"movement": 3,
@@ -497,19 +497,19 @@
 	},
 	{
 		"name": "Spider Rider"
-		"replaces": "Horseman",
-		"unitType": "Mounted",
+		"replaces": "Chariot Archer",
+		"unitType": "Ranged",
 		"uniqueTo": "Goblins",
 		"movement": 4,
-		"strength": 12,
-		"rangedStrength": 14,
-		"cost": 75,
+                "range": 1,
+		"strength": 9,
+		"rangedStrength": 15,
+		"cost": 70,
 		"requiredTech": "Horseback Riding",
-		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"attackSound": "horse"
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Ballista",
