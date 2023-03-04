@@ -364,26 +364,25 @@
 	{
 		"name": "Cave Troll",
 		"uniqueTo": "Goblins",
-		"unitType": "Ranged",
-		"movement": 3,
-		"strength": 11,
-		"rangedStrength": 12,
-		"cost": 75,
-		"requiredTech": "The Wheel",
-		"upgradesTo": "Knight",
-		"uniques": ["[50]% Strength <vs cities>", "No defensive terrain bonus", "Rough terrain penalty"],
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 25,
+		"cost": 130,
+		"requiredTech": "Physics",
+		"uniques": ["Ignores terrain cost","[+50]% Strength <vs cities>","[+25]% Strength <in [Mountains] tiles>", "Invisible to non-adjacent units <in [Mountains] tiles>","[-60]% Strength <in [Open terrain] tiles>","[-50]% Strength <in [Vegatation] tiles>"]
+
 		"attackSound": "throw"
 	},
 	{
 		"name": "Ent",
 		"uniqueTo": "Entwood",
 		"unitType": "Ranged",
-		"movement": 2,
-		"strength": 9,
-		"rangedStrength": 12,
+		"movement": 1,
+		"strength": 15,
+		"rangedStrength": 15,
 		"cost": 75,
 		"requiredResource": "SpecialEnt",
-		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Rough terrain penalty", "Can build only one per city with Forests"],
+		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Rough terrain penalty"],
 		"attackSound": "throw"
 	},
 	{
