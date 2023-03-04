@@ -387,8 +387,8 @@
 		"attackSound": "throw"
 	},
 	{
-		"name": "Giant Spider",
-		"uniqueTo": Shelob's Lair",
+		"name": "Mirkwood Spider",
+		"uniqueTo": "Shelob's Lair",
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 16,
