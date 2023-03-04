@@ -343,34 +343,33 @@
 		"name": "Strength I", 
 		"prerequisites": ["Hero"],
 		"uniques": ["[+10]% Strength"]
-		"unitTypes": ["Ranged","Melee","Mounted"]
 	},
 	{
 		"name": "Strength II", 
 		"prerequisites": ["Strength I"],
 		"uniques": ["[+15]% Strength"]
-		"unitTypes": ["Ranged","Melee","Mounted"]
 	},
 	{
 		"name": "Strength III", 
 		"prerequisites": ["Strength II"],
-		"uniques": ["[+20]% Strength"]
-		"unitTypes": ["Ranged","Melee","Mounted"]
+		"uniques": ["[+10]% Strength"]
 	},
 	{
 		"name": "Strength IV", 
 		"prerequisites": ["Strength III"],
-		"uniques": ["[+25]% Strength"]
-		"unitTypes": ["Ranged","Melee","Mounted"]
+		"uniques": ["[+15]% Strength"]
 	},
 	{
 		"name": "Strength V", 
 		"prerequisites": ["Strength IV"],
-		"uniques": ["[+30]% Strength"]
-		"unitTypes": ["Ranged","Melee","Mounted"]
+		"uniques": ["[+10]% Strength"]
 	},
 	{
 		"name": "Tunnel", 
 		"uniques": ["May Paradrop up to [8] tiles from inside friendly territory"],
+	},
+	{
+		"name": "Ósanwe", 
+		"uniques": ["[+15]% Strength bonus for [Military] units within [10] tiles"],
 	}
 ]

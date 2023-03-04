@@ -43,7 +43,8 @@
 		"strength": 16,
 		"promotions": ["Hero"],
 		"upgradesTo": "Gandalf, the White",
-		"uniques": ["Consumes [1] [Special]", "Unbuildable", "[50]% Strength <vs [Balrog] units>"],
+		"uniques": ["Consumes [1] [Special]", "Unbuildable", "[+50]% Strength <vs [Balrog] units> <with [50]% chance>"],
+
 	},
 	{
 		"name": "Gandalf, the White",
@@ -113,8 +114,8 @@
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 15,
-		"promotions": ["Hero","Blitz"],
-		"uniques": ["Unbuildable", "[+50]% Strength <vs cities>"],
+		"promotions": ["Hero","Ósanwe"],
+		"uniques": ["Unbuildable", "[+20]% Strength <when fighting in [Friendly Land] tiles>"],
 	},
 	{
 		"name": "Legolas",
@@ -123,7 +124,7 @@
 		"strength": 14,
 		"rangedStrength": 18,
 		"promotions": ["Hero","Logistics"],
-		"uniques": ["Unbuildable", "[50]% Strength <vs [Melee] units>"],
+		"uniques": ["Unbuildable", "[50]% Strength <vs [Mumakil] units>", "[50]% Strength <vs [Uruk-Hai] units>"],
 	},
 	
 	{
@@ -135,12 +136,20 @@
 		"uniques": ["Unbuildable", "May withdraw before melee ([100]%)"],
 	},
 	{
-		"name": "Gothmog",
+		"name": "Lieutenant Gothmog",
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 14,
 		"promotions": ["Hero"],
 		"uniques": ["Unbuildable", "Can move after attacking"],
+	},
+	{
+		"name": "Lord Gothmog",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 23,
+		"promotions": ["Hero"],
+		"uniques": ["Unbuildable", "Balrog"],
 	},
 	{
 		"name": "Azog",
@@ -166,7 +175,7 @@
 		"range": 3,
 		"rangedStrength": 18,
 		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "Must set up to ranged attack", "[+15]% Strength bonus for [Military] units within [2] tiles"],
+		"uniques": ["Unbuildable", "Must set up to ranged attack", "[50]% Strength <vs [Gandalf, the Grey] units>"],
 	},
 	{
 		"name": "Shelob",

@@ -386,7 +386,7 @@
 		"name": "Summon Gothmog",
 		"isWonder": true,
 		"cost": 150,
-		"uniques": ["[-2 Culture] <after adopting [Constitution]>","Free [Gothmog] appears", "Unsellable", 
+		"uniques": ["[-2 Culture] <after adopting [Constitution]>","Free [Lieutenant Gothmog] appears", "Unsellable", 
 				"Only available <if [Evil] is constructed>", "Will not be displayed in Civilopedia"],
 	},
 	{
