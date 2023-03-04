@@ -676,6 +676,18 @@
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
+        {
+		"name": "Warg Riders",
+		"unitType": "Mounted",
+		"replaces": "Knights",
+		"uniqueTo": "Goblins",
+		"movement": 3,
+		"strength": 23,
+		"cost": 100,
+		"requiredTech": "Chivalry",
+		"uniques": ["Can move after attacking", "[+15]% Strength <vs [Wounded] units>", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "metalhit"
+        },
 	{
 		"name": "Rohirrim Archer"
 		"replaces": "Knight",
