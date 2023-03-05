@@ -378,18 +378,6 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Cave Troll",
-		"uniqueTo": "Goblins",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 25,
-		"cost": 130,
-		"requiredTech": "Physics",
-		"uniques": ["Ignores terrain cost","[+50]% Strength <vs cities>","[+25]% Strength <in [Mountains] tiles>", "Invisible to non-adjacent units <in [Mountains] tiles>","[-60]% Strength <in [Open terrain] tiles>","[-50]% Strength <in [Vegetation] tiles>"]
-
-		"attackSound": "throw"
-	},
-	{
 		"name": "Ent",
 		"uniqueTo": "Entwood",
 		"unitType": "Ranged",
