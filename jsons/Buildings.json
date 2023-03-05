@@ -258,12 +258,12 @@
 		"cost": -1,
 		"uniques": ["Can only be built [in capital]", "Free [Lightning Bolt] appears", "Unsellable", 
 				"Only available <starting from the [Fourth Age]>", "Will not be displayed in Civilopedia"]
-    },
+    	},
 	{
 		"name": "Nazgul Supply",
 		"uniqueTo": "Mordor",
 		"cost": -1,
-		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [9] [Nazgul]", "Unbuildable"]
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [9] [Nazgul]","[Nazgul] is earned [-149]% faster <without [Nazgul]>", "Unbuildable"]
 	},
 												{
 		"name": "RSupply",
@@ -289,7 +289,7 @@
 		"uniqueTo": "Harad",
 		"cost": -1,
 		"hurryCostModifier": 40,
-		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","New [Haradrim Lancer] units start with [30] Experience in this city","Unbuildable","Unsellable"],
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","New [Haradrim Lancer] units start with [30] Experience [in this city]","Unbuildable","Unsellable"],
 	},
 			{
 		"name": "Rings",
