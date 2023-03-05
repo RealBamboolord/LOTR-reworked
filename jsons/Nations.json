@@ -95,7 +95,7 @@
 		"leaderName": "Sauron",
 		"adjective": ["Mordor"],
 				"style": "Orc",
-		"startBias": ["Mordor Plains"],
+		"startBias": ["Avoid [Grassland]"],
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Hail to Sauron, the reborn star of the East",
@@ -171,9 +171,10 @@
 		"innerColor": [125, 145, 26],
 		"uniqueName": "Horror of the Deeps",
 		"uniqueText": "+15% Combat Bonus in Friendly Land for Land units. Melee units gain 50% more Experience from combat and can pillage without spending movement points when wounded. A Balrog appears in your capital when you discover Mining"
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+15]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>","No movement cost to pillage <for [{Wounded} {Melee}] units>","[50]% XP gained from combat <for [Melee] units>","Receive free [Balrog] when you discover [Mining]"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[50]% XP gained from combat <for [Melee] units>","Receive free [Balrog] when you discover [Mining]"],
 		"cities": ["Moria","Goblin town","Withered Heath","Ettenmoors","High Pass","Misty Mountains","Grey Mountains","Dwarrodelf","Glaurung","Ancalagon","Scatha","Gram Mountain","Rhimdath","Cold Fields","Hoardale"]
 	},
+//"No movement cost to pillage <for [{Wounded} {Melee}] units>",
 							{
 		"name": "Dwarves",
 		"leaderName": "Dain II",
