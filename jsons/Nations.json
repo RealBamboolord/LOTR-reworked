@@ -115,9 +115,10 @@
 		"innerColor": [207, 120, 0],
 		"uniqueName": "Gather them all!",
 		"uniqueText": "Great Generals are generated 50% faster. Receives a free Nazgul when you discover Trapping. +10% Strength in Mordor Plains.",
-		"uniques": ["Gain a free [Rings] [in capital]","[+10]% Strength <for [Land] units> <when fighting in [Mordor Plains] tiles>","Gain a free [Evil] [in capital]","[Nazgul] is earned [50]% faster","Receive free [Nazgul] when you discover [Trapping]","Gain a free [Nazgul Supply] [in capital]"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Nazgul] is earned [50]% faster","Receive free [Nazgul] when you discover [Trapping]","Gain a free [Nazgul Supply] [in capital]"],
 		"cities": ["Barad Dur","Orodruin","Gorgoroth","Udun","Nurn","Dagorlad","Durthang","Cirith Gorgor","Ered Lithui","Ered Duath","Cirith Ungol","Morgul Pass","Black Gate","Nargroth","Morgai","Morannon","Seregost","Lithlad","Carach Angren"]
 	},
+//"[+10]% Strength <for [Land] units> <when fighting in [Mordor Plains] tiles>",
 					{
 		"name": "Angmar",
 		"leaderName": "Witch-king",
