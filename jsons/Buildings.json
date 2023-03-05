@@ -263,7 +263,7 @@
 		"name": "Nazgul Supply",
 		"uniqueTo": "Mordor",
 		"cost": -1,
-		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [9] [Nazgul]","[Nazgul] is earned [-149]% faster <without [Nazgul]>", "Unbuildable"]
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [9] [Nazgul]", "Unbuildable"]
 	},
 												{
 		"name": "RSupply",
