@@ -289,7 +289,7 @@
 		"uniqueTo": "Harad",
 		"cost": -1,
 		"hurryCostModifier": 40,
-		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","New [Haradrim Lancer] units start with [30] Experience [in this city]","Unbuildable","Unsellable"],
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","New [Haradrim Lancer] units start with [30] Experience in this city","Unbuildable","Unsellable"],
 	},
 			{
 		"name": "Rings",
