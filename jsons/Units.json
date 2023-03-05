@@ -179,7 +179,7 @@
 	},
 	{
 		"name": "Shelob",
-		"unitType": "Mounted",
+		"unitType": "Melee",
 		"movement": 3,
 		"strength": 20,
 		"promotions": ["Hero","Tunnel"],
