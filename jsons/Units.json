@@ -688,7 +688,7 @@
 		"strength": 23,
 		"cost": 100,
 		"requiredTech": "Chivalry",
-		"uniques": ["Can move after attacking", "[+15]% Strength <vs [Wounded] units>", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "[+15]% Strength <vs [Wounded] units>", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
         },
 	{
