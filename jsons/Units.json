@@ -362,6 +362,22 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Spider Rider"
+		"replaces": "Chariot Archer",
+		"unitType": "Ranged",
+		"uniqueTo": "Goblins",
+		"movement": 4,
+                "range": 1,
+		"strength": 9,
+		"rangedStrength": 15,
+		"cost": 70,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Cave Troll",
 		"uniqueTo": "Goblins",
 		"unitType": "Melee",
