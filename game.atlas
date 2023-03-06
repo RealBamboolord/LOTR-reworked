@@ -174,35 +174,35 @@ NationIcons/Sindar Elves
   index: -1
 ResourceIcons/Bison
   rotate: false
-  xy: 1876, 1920
+  xy: 1668, 1712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Citrus
   rotate: false
-  xy: 420, 256
+  xy: 1876, 1920
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Cocoa
   rotate: false
-  xy: 628, 464
+  xy: 420, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Copper
   rotate: false
-  xy: 1044, 880
+  xy: 836, 672
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Crab
   rotate: false
-  xy: 112, 48
+  xy: 1044, 880
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -844,16 +844,9 @@ TileSets/FantasyHex/Units/Wormtongue
   orig: 32, 28
   offset: 0, 0
   index: -1
-UnitIcons/ Lord Gothmog
-  rotate: false
-  xy: 4, 48
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Aragorn
   rotate: false
-  xy: 1252, 1296
+  xy: 4, 48
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -867,14 +860,14 @@ UnitIcons/Axe Thrower
   index: -1
 UnitIcons/Azog
   rotate: false
-  xy: 1460, 1504
+  xy: 1252, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Balrog
   rotate: false
-  xy: 1668, 1712
+  xy: 1460, 1504
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -909,7 +902,7 @@ UnitIcons/Cave Troll
   index: -1
 UnitIcons/Composite Bowman
   rotate: false
-  xy: 836, 672
+  xy: 628, 464
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -944,21 +937,21 @@ UnitIcons/Explosive Mine
   index: -1
 UnitIcons/Galley
   rotate: false
-  xy: 1252, 1188
+  xy: 112, 48
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Gandalf, the Grey
   rotate: false
-  xy: 220, 48
+  xy: 1252, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Gandalf, the White
   rotate: false
-  xy: 1252, 1080
+  xy: 220, 48
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -972,14 +965,14 @@ UnitIcons/Gimli
   index: -1
 UnitIcons/Goblin Archer
   rotate: false
-  xy: 1360, 1296
+  xy: 1252, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Guardian
   rotate: false
-  xy: 1360, 1188
+  xy: 1360, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1000,7 +993,7 @@ UnitIcons/Haradrim Lancer
   index: -1
 UnitIcons/Ithilien Ranger
   rotate: false
-  xy: 1360, 1080
+  xy: 1360, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1010,6 +1003,13 @@ UnitIcons/Lightning Bolt
   xy: 836, 1404
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Lord Gothmog
+  rotate: false
+  xy: 1360, 1080
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mirkwood Archer
