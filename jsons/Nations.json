@@ -18,9 +18,9 @@
 		"startIntroPart2": "You have awaken from your long slumber, and now the rohirrims are counting on you to lead them to a brighter tomorrow. Your neighbours won't leave you much room for peace and you may have to carve your peace with the tip of the spear. But, thanks to your leadership, Rohan might become strong enough to tip the scale in a war between Gondor and Mordor, who knows ?",
 		
 		"declaringWar": "Muster the Rohirrim!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "I am Theoden!",
+		"attacked": "I see, we will gather the Rohirrims for war.",
+		"defeated": "It is over but I shall not the ashamed.",
+		"introduction": "I am Theoden, King of Rohan!",
 		
 		"neutralHello": "Greetings.",
 		"hateHello": "Yes?!",
@@ -46,9 +46,9 @@
 		"startIntroPart2": "You have come back to the ivory tower to lead your people against their many foes. The ancient evil is rising in the east, but danger may also com from the south and the haradrim or the north from the easterlings, the dwarves or even the elves. Will your allies in Rohan be ready to answer the call or will they be too occupied with Isengard ? Only you can now save and rebuild a strong and safe Gondor nation and... who knows, maybe reunite Gondor and Arnor ?",
 		
 		"declaringWar": "For the White City!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "I am Aragorn!",
+		"attacked": "The light of the West will prevail from this agression !",
+		"defeated": "It is over, will the light disappear from Middle Earth ?",
+		"introduction": "I am Aragorn Elessar, heir of Isildur!",
 		
 		"neutralHello": "Greetings.",
 		"hateHello": "Yes?!",
@@ -74,8 +74,8 @@
 		"startIntroPart2": "After hundreds of years, the evil power of the east is returning and this time, good intentions won't be enough to stop it. As the leader of the Istari, sent from the West, you alone could even dream of facing him. But do you have the strengh you need or do you need to carve yourself a great empire before facing leading the offensive ? History will decide.",
 		
 		"declaringWar": "A new power is rising!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"attacked": "So you have chosen... death.",
+		"defeated": "Save your pity and your mercy, I have no use for it!",
 		"introduction": "I am Saruman!",
 		
 		"neutralHello": "Greetings.",
@@ -102,8 +102,8 @@
 		"startIntroPart2": "For too long have you been running, after flying Numenor, and later Dol Guldur, your forces are now strong enough to reveal yourself and lead them to a new age of glory. Rally your allies and crush your ennemies to make Middle Earth and later Arda kneel before you. You are the only power worth standing.",
 		
 		"declaringWar": "You cannot hide!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"attacked": "The Eye sees all, I will crush you!",
+		"defeated": "I will be reborn again.",
 		"introduction": "I am Sauron!",
 		
 		"neutralHello": "Greetings.",
@@ -130,7 +130,7 @@
 		"startIntroPart2": "The West is weak, Arnor is on its knees, Gondor is attacked on all sides, the elves and the dwarves are closing themselves from the outside. It is time to rise again and carve yourself a new kingdom. You can be the trusted and worthy servant of Sauron, or who knows, even seize the opportunity to be the new successor of Melkor and use the One Ring to rule over all living things on Middle Earth. The World may now be yours to grasp !",
 		
 		"declaringWar": "No man can defeat me!",
-		"attacked": "Oh well, I presume you know what you're doing.",
+		"attacked": "Do you not know death when you see it, old man ? This is my hour!",
 		"defeated": "It is over. Perhaps now I shall have peace, at last.",
 		"introduction": "I am Witch-King!",
 		
@@ -155,11 +155,11 @@
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Glory to you Azog",
-		"startIntroPart2": "For too long have you been crawling under the earth. Humans are now at war with each other and under attack from the east, not to speak of the elven kingdoms and the dwarves. Your time has come. Will you be able to make a great nation of the goblins or will you stay a tiny vassal under Mordor boots ? Your future will depends on your actions, you must now earn the fear your people placed upon you !",
+		"startIntroPart2": "For too long have you been crawling under the earth. Humans are now at war with each other and under attack from the east, not to speak of the elven kingdoms and the dwarves. Your time has come. Will you be able to make a great nation for your master or will you stay hidden under the mountain ? Your future will depends on your actions, you must now earn the fear your people placed upon you !",
 		
 		"declaringWar": "Argh!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"attacked": "Let the lands run with blood! Slaughter them all.",
+		"defeated": "If it is not me, it will be another, be ready to die.",
 		"introduction": "I am Azog of Moria, you stink of fear!",
 		
 		"neutralHello": "Greetings.",
@@ -182,13 +182,13 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "Glory be to you Dain Ironfoot",
+		"startIntroPart2": "You have taken the throne after the death of your father at the hand of Azog the Defiler. Since then, you have been on a path of vengeance, leading your nation from the Iron hills and the Misty mountains back their former glory. Will you be the leading force blocking evil from the path north or will you be crushed under Rhun hordes or the hostility of the inhabitants of Mirkwook ? Only you can answer this question.",
 		
 		"declaringWar": "I smell battle!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "I am Dain!",
+		"attacked": "I will not stand down before you, be ready for our vengeance!",
+		"defeated": "What a sad day that saw the sons of Durin fall under the dark.",
+		"introduction": "I am Dain Ironfoot, leader of the dwarves !",
 		
 		"neutralHello": "Greetings.",
 		"hateHello": "Yes?!",
@@ -209,13 +209,13 @@
 		"adjective": ["Arnorian"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "Rise, Elendil son of Amandil, first High King of the Realms in Exile.",
+		"startIntroPart2": "How terrible was the fall of Numenor, how sad the fate of the Kingsmen, with their home not only submerged by the sea but also traitor to the Valar and the Love of Eru. But a new dawn is rising. From the ashes, you may build a new home, a better home, in this new land, taken from the hands of the darkness and brought back to the light of the Valar. Will you be worthy of this new chance provided by Eru or will your legacy fall before the assault of the disguised ennemy, now raised in plain light ?",
 		
 		"declaringWar": "The Last Alliance declares war on you!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "I am Elendil!",
+		"attacked": "For Eru, we shall prevail !",
+		"defeated": "The last see of Nimloth, the white tree has finally fallen.",
+		"introduction": "I am Elendil, son of Amandil, first High King of the Realms in Exile.!",
 		
 		"neutralHello": "Greetings.",
 		"hateHello": "Yes?!",
