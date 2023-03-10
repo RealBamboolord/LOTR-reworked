@@ -222,6 +222,6 @@
 		"aiUnhappinessModifier": 0.5,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 0
+		"clearBarbarianCampReward": 15
 	}
 ]
