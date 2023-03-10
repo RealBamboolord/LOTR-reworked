@@ -304,13 +304,13 @@
 		"name": "Good",
 		"isNationalWonder": true,
 		"gold": 2,
-		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Unbuildable"],
+		"uniques": ["[-2 Culture] <after adopting [Constitution]>","Unbuildable"],
 	},
 	{
 		"name": "Evil",
 		"isNationalWonder": true,
 		"gold": 2,
-		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Unbuildable"],
+		"uniques": ["[-2 Culture] <after adopting [Constitution]>","Unbuildable"],
 	},
 	{
 		"name": "Summon Gandalf",
