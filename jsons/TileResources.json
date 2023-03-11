@@ -228,7 +228,6 @@
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["[+1 Production, +1 Culture] <in [Desert] tiles>",]
 	},
 	{
 		"name": "Silk",
