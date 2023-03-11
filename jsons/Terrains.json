@@ -312,6 +312,38 @@
 	},
  
 	// Natural Wonders
+	//LOTR
+	{
+		"name": "Mount Doom",
+		"type": "NaturalWonder",
+		"science": 3,
+		"production": 3,
+		"occursOn": ["Mordor Plains"],
+		"uniques": ["Must be adjacent to [1] to [6] [Mordor Plains] tiles",
+			"Must be adjacent to [0] [Coast] tiles",
+			"Neighboring tiles will convert to [Mordor Plains]"],
+		"turnsInto": "Mountains",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "The Lonely Mountain",
+		"type": "NaturalWonder",
+		"gold": 10,
+		"occursOn": ["Plains","Mountain"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [1] to [6] [Hill] tiles"],
+		"turnsInto": "Mountains",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 5
+	},
+	
+	
+	
+	
+	//Vanilla
 	{
 		"name": "Great Barrier Reef",
 		"type": "NaturalWonder",
@@ -417,7 +449,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 0
 	},
 	{
 		"name": "Rock of Gibraltar",
@@ -443,7 +475,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 5
+		"weight": 0
 	},
 	{
 		"name": "Barringer Crater",
