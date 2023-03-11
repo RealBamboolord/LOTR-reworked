@@ -9,6 +9,7 @@
 		"Cannot build [Settler] units <when below [-10] Happiness>",
 		"Rebel units may spawn <when below [-20] Happiness>",
 		"Gain a free [RSupply] [in all cities]",
-		"[+1 Production, +1 Culture] from every [Ivory] <in [Desert] tiles>"
+		"[+1 Production, +1 Culture] from every [Ivory] <in [Desert] tiles> <in tiles without [Flood plains]>",
+		"[+1 Culture] from every [Ivory] <in [Desert] [Flood plains] tiles>"
 	]
 }
