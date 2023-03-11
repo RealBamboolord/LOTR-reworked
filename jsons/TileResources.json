@@ -224,10 +224,11 @@
 	{
 		"name": "Ivory",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Mordor Plains"],
+		"terrainsCanBeFoundOn": ["Plains","Mordor Plains","Desert"],
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
+		"uniques": ["[+1 Production, +1 Culture] <in [Desert] tiles>",]
 	},
 	{
 		"name": "Silk",
