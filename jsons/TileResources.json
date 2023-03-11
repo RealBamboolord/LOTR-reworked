@@ -224,7 +224,7 @@
 	{
 		"name": "Ivory",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Mordor Plains","Desert"],
+		"terrainsCanBeFoundOn": ["Flood plains","Mordor Plains","Desert"],
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
