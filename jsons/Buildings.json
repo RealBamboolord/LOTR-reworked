@@ -447,7 +447,7 @@
 		"production": 2,
 		"science": 1,
 		"gold": 2,
-		"specialistSlots":  {"Sculptor": 1, "Researcher": 1, "Inventor": 1, "Seller": 1 },
+		//"specialistSlots":  {"Sculptor": 1, "Researcher": 1, "Inventor": 1, "Seller": 1 },
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
