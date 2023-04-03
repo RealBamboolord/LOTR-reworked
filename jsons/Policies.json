@@ -440,5 +440,93 @@
 				"uniques": ["[+20]% Strength <when attacking> <for [Military] units> <for [30] turns>",]
 			}
 		]
+	},
+        {
+		"name": "Follow Sauron",
+		"era": "Third Age",
+		"uniques": [""],
+		"policies": [
+			{
+				"name": "Policy 1",
+				"uniques": [""],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Policy 2",
+				"uniques": [""],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Policy 3",
+				"uniques": [""],
+				"requires": [""],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Policy 4",
+				"uniques": [""],
+				"requires": [""],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Policy 5",
+				"uniques": [""],
+				"requires": [""],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Follow Sauron Complete",
+				"uniques": [""]
+			}
+		]
+	},
+        {
+		"name": "Independent Raiders",
+		"era": "Third Age",
+		"uniques": [""],
+		"policies": [
+			{
+				"name": "Policy 1",
+				"uniques": [""],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Policy 2",
+				"uniques": [""],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Policy 3",
+				"uniques": [""],
+				"requires": [""],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Policy 4",
+				"uniques": [""],
+				"requires": [""],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Policy 5",
+				"uniques": [""],
+				"requires": [""],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Independent Raiders Complete",
+				"uniques": [""]
+			}
+		]
 	}
 ]
