@@ -134,7 +134,8 @@
 				"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
 			}
 		]
-	},{
+	},
+        {
 		"name": "Piety",
 		"era": "First Age",
 		"uniques": ["[+15]% Production when constructing [Culture] buildings [in all cities]"],
