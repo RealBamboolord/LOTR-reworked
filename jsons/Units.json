@@ -379,14 +379,17 @@
 	},
 	{
 		"name": "Ent",
-		"uniqueTo": "Entwood",
 		"unitType": "Ranged",
 		"movement": 1,
 		"strength": 15,
 		"rangedStrength": 15,
 		"cost": 75,
 		"requiredResource": "SpecialEnt",
-		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Rough terrain penalty"],
+		"uniques": [
+"[+100]% Strength <vs cities>",
+"Only available <with [SpecialEnt]> <if [Good] is constructed>",
+"Unbuildable <in cities without a [Ent Supply]>"
+                              ],
 		"attackSound": "throw"
 	},
 	{
