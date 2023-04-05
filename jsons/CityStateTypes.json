@@ -14,6 +14,20 @@
         "color": [139, 96, 255]
     },
     {
+        "name": "Ent Wood",
+        "friendBonusUniques": [
+            "[+3 Culture] <before the [Second Age]>",
+            "[+6 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+13 Culture] <starting from the [Fourth Age]>"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture] <before the [Second Age]>",
+            "[+12 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+26 Culture] <starting from the [Fourth Age]>"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
         "name": "Maritime",
         "friendBonusUniques": ["[+2 Food] [in capital]"],
         "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
