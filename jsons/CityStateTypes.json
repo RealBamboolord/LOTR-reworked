@@ -16,14 +16,17 @@
     {
         "name": "Ent Wood",
         "friendBonusUniques": [
-            "[+3 Culture] <before the [Second Age]>",
-            "[+6 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
-            "[+13 Culture] <starting from the [Fourth Age]>"
+            "[+2 Culture] <before the [Second Age]>",
+            "[+4 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+9 Culture] <starting from the [Fourth Age]>",
+            "[+1 Gold] from [Forest] tiles [in capital]"
         ],
         "allyBonusUniques": [
-            "[+6 Culture] <before the [Second Age]>",
-            "[+12 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
-            "[+26 Culture] <starting from the [Fourth Age]>"
+            "[+4 Culture] <before the [Second Age]>",
+            "[+8 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+17 Culture] <starting from the [Fourth Age]>",
+            "[+1 Gold] from [Forest] tiles [in all cities]",
+            "May buy [Ent] units with [Gold] [in all cities] <if [Good] is constructed>"
         ],
         "color": [139, 96, 255]
     },
