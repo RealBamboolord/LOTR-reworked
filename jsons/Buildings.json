@@ -1024,7 +1024,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[10]% Unhappiness from [Population] [in all cities]"],
+		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]"],
 		"requiredTech": "Banking",
 	},
 	{
