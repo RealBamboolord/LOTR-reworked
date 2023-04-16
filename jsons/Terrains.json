@@ -388,9 +388,9 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
-	},	"happiness": 3,
+		"happiness": 3,
 		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
-	
+	},
 	{
 		"name": "El Dorado",
 		"type": "NaturalWonder",
