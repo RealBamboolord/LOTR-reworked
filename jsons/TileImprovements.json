@@ -15,6 +15,23 @@
 		],
 		"shortcutKey": "F"
 	},
+	{
+		"name": "Pipe Weed Farm",
+		"uniqueTo": "The Shire",
+		"terrainsCanBeBuiltOn": ["Grassland"],
+		"culture": 1,
+		"food": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Calendar",
+		"uniques": [
+			"[+1 Food] from [Fresh water] tiles <after discovering [Mathematics]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Gold] <after discovering [Guilds]>",
+			"[+1 Culture] <after discovering [Economics]>",
+			"Pillaging this improvement yields approximately [+18 Gold]"
+		],
+		"shortcutKey": "F"
+	},
 		{
 		"name": "Mill",
 		"uniqueTo": "Angmar",

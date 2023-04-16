@@ -482,6 +482,21 @@
 		"requiredTech": "Pottery"
 	},
 	{
+		"name": "Lockholes", 
+		"replaces": "Granary",
+		"uniqueTo": "The Shire",
+		"cityStrength": 2,
+		"cityHealth": 25,
+		"culture": 1,
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles in this city",
+			"[+1 Food] from [Bananas] tiles in this city",
+			"[+1 Food] from [Wheat] tiles in this city"],
+		"requiredTech": "Pottery"
+	},
+	{
 		"name": "Temple of Melian",
 		"culture": 1,
 		"isWonder": true,

@@ -641,6 +641,19 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Shirriff",
+		"replaces": "Pikeman",
+		"uniqueTo": "The Shire",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 20,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Barbarian] units>","[+25]% Strength <when fighting units from a Civilization with more Cities than you>"],
+		"upgradesTo": "Longswordsman",
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Tower Guard",
 		"replaces": "Pikeman",
 		"uniqueTo": "Gondor",
