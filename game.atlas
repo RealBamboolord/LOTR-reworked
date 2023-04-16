@@ -305,6 +305,13 @@ TileSets/FantasyHex/Tiles/Cerro de Potosi
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/The Lonely Mountain
+  rotate: false
+  xy: 1335, 1076
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Citrus
   rotate: false
   xy: 212, 1464
@@ -355,6 +362,13 @@ TileSets/FantasyHex/Tiles/Grand Mesa
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Krakatoa
+  rotate: false
+  xy: 1964, 1906
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mount Doom
   rotate: false
   xy: 1964, 1906
   size: 32, 30
