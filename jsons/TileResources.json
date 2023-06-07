@@ -1,7 +1,7 @@
 [	// Victory resources
 	{
 		"name": "Ring",
-		"resourceType": "Luxury",
+		"resourceType": "Bonus",
 	},
 			{
 		"name": "Supply",
