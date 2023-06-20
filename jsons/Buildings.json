@@ -776,7 +776,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Forest]", "[3] free [Ent] units appear","Provides [3] [SpecialEnt]", "[+1 Production, +1 Culture] from [Forest] tiles in this city"],
+		"uniques": ["Must be next to [Forest]", "[3] free [Ent] units appear","Provides [3] [SpecialEnt]", "[+1 Production, +1 Culture] from [Forest] tiles [in this city]"],
 		"requiredTech": "Currency",
 	},
 	{
