@@ -89,7 +89,7 @@
 				{
 		"name": "Dwarven Ring1",
 		"requiredResource": "Dwarven Rings",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [2] [Iron]","Only available <with [Iron]>","Can only be built [in capital]"]
 	},
 					{
@@ -101,7 +101,7 @@
 					{
 		"name": "Dwarven Ring4",
 		"requiredResource": "Dwarven Rings",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [2] [Copper]","Only available <with [Copper]>","Can only be built [in capital]"]
 	},
 					{
