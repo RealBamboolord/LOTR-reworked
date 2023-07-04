@@ -1010,11 +1010,13 @@
 		"unitType": "Mounted",
 		"uniqueTo": "Mordor",
 		"strength": 23,
+		"requiredTech": "Chivalry",
 		"requiredResource": "Fellbeast",
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", 
-			"[+15]% Strength bonus for [Military] units within [2] tiles", "Will not be displayed in Civilopedia", "Can move after attacking", 
-			"Can instantly construct a [Citadel] improvement <by consuming this unit>", "Consumes [1] [Nazgul]", "Ignores terrain cost", "Only available <with [Block]>"],
-		"movement": 5,
+			"[+15]% Strength bonus for [Military] units within [2] tiles", "Will not be displayed in Civilopedia", "Can move after attacking",
+			"Consumes [1] [Nazgul]", "Ignores terrain cost", "[-40]% Strength <before the [Third Age]>", "Only available <with [Block]>"
+		],
+		"movement": 4,
 		"cost": 120,
 	}
 ]
