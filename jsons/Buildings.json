@@ -3,226 +3,201 @@
 	// Victory Specific
 		{
 		"name": "Elven Ring1",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Only available <with [Elven Rings]> <after adopting [Tradition Complete]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Hidden until [1] social policy branches have been completed","Can only be built [in capital]"]
 	},
 			{
 		"name": "Elven Ring2",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Only available <with [Elven Rings]> <after adopting [Liberty Complete]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Hidden until [2] social policy branches have been completed","Can only be built [in capital]"]
 	},
 			{
 		"name": "Elven Ring3",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Only available <with [Elven Rings]> <after adopting [Honor Complete]>","Can only be built [in capital]"]
-	},
-			{
-		"name": "Elven Ring4",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Only available <with [Elven Rings]> <after adopting [Piety Complete]>","Can only be built [in capital]"]
-	},
-			{
-		"name": "Elven Ring5",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Only available <with [Elven Rings]> <after adopting [Rationalism Complete]>","Can only be built [in capital]"]
-	},
-			{
-		"name": "Elven Ring6",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Only available <with [Elven Rings]> <after adopting [Commerce Complete]>","Can only be built [in capital]"]
-	},
-			{
-		"name": "Elven Ring7",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Only available <with [Elven Rings]> <after adopting [Freedom Complete]>","Can only be built [in capital]"]
-	},
-			{
-		"name": "Elven Ring8",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Only available <with [Elven Rings]> <after adopting [Autocracy Complete]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Hidden until [3] social policy branches have been completed","Can only be built [in capital]"]
 	},
 			{
 		"name": "Men Ring1",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
 	},
 				{
 		"name": "Men Ring2",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
 	},
 				{
 		"name": "Men Ring3",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
 	},
 				{
 		"name": "Men Ring4",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
 	},
 				{
 		"name": "Men Ring5",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
 	},
 				{
 		"name": "Men Ring6",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
 	},
 				{
 		"name": "Men Ring7",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
 	},
 				{
 		"name": "Men Ring8",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
 	},
 				{
 		"name": "Men Ring9",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Men Rings]","Consumes [4] [Supply]","Only available <with [Men Rings]>","Can only be built [in capital]"]
 	},
 				{
 		"name": "Dwarven Ring1",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
+		"cost": 0,
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [2] [Iron]","Only available <with [Iron]>","Can only be built [in capital]"]
 	},
 					{
 		"name": "Dwarven Ring3",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Mithril]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Mithril]>","Can only be built [in capital]"]
 	},
 					{
 		"name": "Dwarven Ring4",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
+		"cost": 0,
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [2] [Copper]","Only available <with [Copper]>","Can only be built [in capital]"]
 	},
 					{
 		"name": "Dwarven Ring5",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Gold Ore]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Gold Ore]>","Can only be built [in capital]"]
 	},
 						{
 		"name": "Dwarven Ring6",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Gems]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Gems]>","Can only be built [in capital]"]
 	},
 						{
 		"name": "Dwarven Ring7",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Silver]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Silver]>","Can only be built [in capital]"]
 	},
 						{
 		"name": "Dwarven Ring8",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Salt]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Salt]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring9",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Dyes]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Dyes]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring10",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Cotton]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Cotton]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring11",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Furs]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Furs]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring12",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Incense]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Incense]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring13",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Ivory]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Ivory]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring14",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Silk]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Silk]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring15",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Spices]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Spices]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring16",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Marble]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Marble]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring17",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Sugar]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Sugar]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring18",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Wine]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Wine]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring19",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Whales]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Whales]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring20",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Pearls]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Pearls]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring21",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Citrus]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Citrus]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring22",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Cocoa]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Cocoa]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring23",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Truffles]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Truffles]>","Can only be built [in capital]"]
 	},
 							{
 		"name": "Dwarven Ring24",
 		"requiredResource": "Dwarven Rings",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Crab]>","Can only be built [in capital]"]
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Only available <with [Crab]>","Can only be built [in capital]"]
 	},
 								{
 		"name": "Train Fellbeast",
@@ -234,40 +209,40 @@
 	{
 		"name": "First Lightning Bolts",
 		"uniqueTo": "Isengard",
-		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Can only be built [in capital]", "Free [Lightning Bolt] appears", "Unsellable", 
+		"cost": 0,
+		"uniques": ["Automatically built in all cities where it is buildable","Can only be built [in capital]", "Free [Lightning Bolt] appears", "Unsellable", "Limited to [1] per Civilization",
 				"Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Second Lightning Bolts",
 		"uniqueTo": "Isengard",
-		"cost": 1,
+		"cost": 0,
 		"uniques": ["Automatically built in all cities where it is buildable","Can only be built [in capital]", "Free [Lightning Bolt] appears", "Unsellable", 
-				"Only available <starting from the [Second Age]>", "Will not be displayed in Civilopedia"]
+				"Only available <starting from the [Second Age]>","Limited to [1] per Civilization", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Third Lightning Bolt",
 		"uniqueTo": "Isengard",
-		"cost": 1,
+		"cost": 0,
 		"uniques": ["Automatically built in all cities where it is buildable","Can only be built [in capital]", "Free [Lightning Bolt] appears", "Unsellable", 
-				"Only available <starting from the [Third Age]>", "Will not be displayed in Civilopedia"]
+				"Only available <starting from the [Third Age]>","Limited to [1] per Civilization", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Fourth Lightning Bolt",
 		"uniqueTo": "Isengard",
-		"cost": 1,
+		"cost": 0,
 		"uniques": ["Automatically built in all cities where it is buildable","Can only be built [in capital]", "Free [Lightning Bolt] appears", "Unsellable", 
-				"Only available <starting from the [Fourth Age]>", "Will not be displayed in Civilopedia"]
+				"Only available <starting from the [Fourth Age]>","Limited to [1] per Civilization", "Will not be displayed in Civilopedia"]
     	},
 	{
 		"name": "Nazgul Supply",
 		"uniqueTo": "Mordor",
-		"cost": -1,
+		"cost": 0,
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [9] [Nazgul]","[Nazgul] is earned [-149]% faster <without [Nazgul]>", "Unbuildable"]
 	},
 												{
 		"name": "RSupply",
-		"cost": 1,
+		"cost": 0,
 		"uniques": ["Automatically built in all cities where it is buildable","Will not be displayed in Civilopedia","Provides [3] [Supply]","Unsellable"]
 		},
 	{
@@ -1096,19 +1071,38 @@
 		"uniques": ["Must not be on [Hill]", "[10]% Production when constructing [Buildings] buildings [in this city]"],
 		"requiredTech": "Economics"
 	},
-	/*	{
-		"name": "Enable Ring Victory",
-		"cost": -1,
-		"isNationalWonder": true,
-		"uniques": ["Enables construction of Spaceship parts"],
-		"requiredTech": "Agriculture",
-	}, */
 	{
 		"name": "The One Ring to rule them all",
-		"cost": 250,
+		"cost": 1000,
 				"isNationalWonder": true,
-	        //"requiredBuilding": "Enable Ring Victory",
 		"uniques": ["Consumes [19] [Ring]","Triggers a global alert upon build start"]
-		"requiredTech": "Agriculture",
+		"requiredTech": "Metal Casting",
+	},
+
+	// Trash
+			{
+		"name": "Elven Ring4",
+		"cost": 1,
+		"uniques": ["Unbuildable"]
+	},
+			{
+		"name": "Elven Ring5",
+		"cost": 1,
+		"uniques": ["Unbuildable"]
+	},
+			{
+		"name": "Elven Ring6",
+		"cost": 1,
+		"uniques": ["Unbuildable"]
+	},
+			{
+		"name": "Elven Ring7",
+		"cost": 1,
+		"uniques": ["Unbuildable"]
+	},
+			{
+		"name": "Elven Ring8",
+		"cost": 1,
+		"uniques": ["Unbuildable"]
 	},
 ]
