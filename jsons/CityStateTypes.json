@@ -31,6 +31,23 @@
         "color": [139, 96, 255]
     },
     {
+        "name": "Eagle's Eyrie",
+        "friendBonusUniques": [
+            "[+2 Culture] <before the [Second Age]>",
+            "[+4 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+9 Culture] <starting from the [Fourth Age]>",
+            "Unlocks Eagle's Escort Promotion for Hero and Melee units"
+        ],
+        "allyBonusUniques": [
+            "[+4 Culture] <before the [Second Age]>",
+            "[+8 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+17 Culture] <starting from the [Fourth Age]>",
+            "[+1 Gold] from [Forest] tiles [in all cities]",
+            "May buy [Ent] units with [Gold] [in all cities] <if [Good] is constructed>"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
         "name": "Maritime",
         "friendBonusUniques": ["[+2 Food] [in capital]"],
         "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
