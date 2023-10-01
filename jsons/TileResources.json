@@ -20,6 +20,14 @@
 		"resourceType": "Bonus",
 	},
 	{
+		"name": "SpecialSpider",
+		"resourceType": "Bonus",
+	},
+	{
+		"name": "SpecialBeorning",
+		"resourceType": "Bonus",
+	},
+	{
 		"name": "Block",
 		"resourceType": "Bonus",
 	},
