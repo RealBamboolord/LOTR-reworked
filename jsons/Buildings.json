@@ -285,6 +285,13 @@
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [8] [SpecialEnt]", "Unsellable"],
 	},
 	{
+		"name": "Eagle Supply",
+		"uniqueTo": "Eagle's Eyrie",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [1] [SpecialEagle]", "Unsellable"],
+	},
+	{
 		"name": "Harad Training Grounds",
 		"uniqueTo": "Harad",
 		"cost": -1,
@@ -299,7 +306,7 @@
 		"uniques": ["[-2 Culture] <after adopting [Constitution]>","Provides [3] [Elven Rings]","Provides [9] [Men Rings]","Provides [7] [Dwarven Rings]","Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
 	},
 	
-	// Hero Spawners "Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]"
+	// Hero Spawners "Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]",
 	{
 		"name": "Good",
 		"isNationalWonder": true,
