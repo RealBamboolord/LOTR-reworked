@@ -3,39 +3,43 @@
 		"name": "Ring",
 		"resourceType": "Luxury",
 	},
-			{
+	{
 		"name": "Supply",
 		"resourceType": "Strategic",
 	},
-					{
+	{
 		"name": "Special",
 		"resourceType": "Bonus",
 	},
-					{
+	{
 		"name": "SpecialEnt",
 		"resourceType": "Bonus",
 	},
-					{
+	{
+		"name": "SpecialEagle",
+		"resourceType": "Bonus",
+	},
+	{
 		"name": "Block",
 		"resourceType": "Bonus",
 	},
-					{
+	{
 		"name": "Fellbeast",
 		"resourceType": "Bonus",
 	},
-						{
+	{
 		"name": "Nazgul",
 		"resourceType": "Bonus",
 	},
-		{
+	{
 		"name": "Elven Rings",
 		"resourceType": "Bonus",
 	},
-		{
+	{
 		"name": "Men Rings",
 		"resourceType": "Bonus",
 	},
-		{
+	{
 		"name": "Dwarven Rings",
 		"resourceType": "Bonus",
 	},
