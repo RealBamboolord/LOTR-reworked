@@ -289,7 +289,21 @@
 		"uniqueTo": "Eagle's Eyrie",
 		"cost": 1,
 		"hurryCostModifier": 40,
-		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [1] [SpecialEagle]", "Unsellable"],
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [2] [SpecialEagle]", "Unsellable"],
+	},
+	{
+		"name": "Beorning Supply",
+		"uniqueTo": "Beorn's Hall",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [3] [SpecialBeorning]", "Unsellable"],
+	},
+	{
+		"name": "Spider Supply",
+		"uniqueTo": "Shelob's Lair",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [8] [SpecialSpider]", "Unsellable"],
 	},
 	{
 		"name": "Harad Training Grounds",
