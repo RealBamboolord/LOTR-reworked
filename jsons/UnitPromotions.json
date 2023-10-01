@@ -329,15 +329,29 @@
 		"name": "Morale", // Heroic Epic
 		"uniques": ["[+15]% Strength"]
 	},
-		{
-		"name": "Hero", // Heroic Epic
+	{
+		"name": "Hero",
 		"uniques": ["Hero","Damage is ignored when determining unit Strength"]
+	},
+	{
+		"name": "Melee",
+		"uniques": ["Used for Prerequisites"]
+	},
+	{
+		"name": "Eagle's Escort",
+		"prerequisites": ["Melee", "Hero"],
+		"uniques": [
+			"Only available <with [SpecialEagle]>",
+			"May Paradrop up to [3] tiles from inside friendly territory",
+			"Can pass through impassable tiles",
+			"May withdraw before melee ([66]%) <when below [20] HP>"
+		],
+		"unitTypes": ["Melee", "Ranged", "Mounted", "Scout"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 		"uniques": ["All healing effects doubled"]
 	},
-	
 	// Hero
 	{
 		"name": "Strength I", 
