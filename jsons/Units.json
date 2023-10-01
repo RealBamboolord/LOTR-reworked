@@ -212,6 +212,38 @@
 		"promotions": ["Hero"],
 		"uniques": ["Unbuildable",]
 	},
+
+	// City States + Mercenaries
+	{
+		"name": "Ent",
+		"unitType": "Ranged",
+		"movement": 1,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 75,
+		"requiredResource": "SpecialEnt",
+		"uniques": [
+			"[+100]% Strength <vs cities>",
+			"Only available <with [SpecialEnt]> <if [Good] is constructed>",
+			"Unbuildable <in cities without a [Ent Supply]>"
+                              ],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Mirkwood Spider",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"requiredResource": "SpecialSpider",
+		"requiredTech": "Trapping",
+		"uniques": [
+			"No defensive terrain bonus", "[+25]% Strength <in [Forest] tiles> <when attacking>", "[+25]% Strength <in [Jungle] tiles> <when attacking>","Invisible to non-adjacent units <in [Forest] tiles>","Double movement in [Forest]","Heals [20] damage if it kills a unit",
+			"Only available <with [SpecialSpider]> <if [Evil] is constructed>",
+			"Unbuildable <in cities without a [Spider Supply]>"
+		]
+		"attackSound": "nonmetalhit"
+	},
 	
 	// First Age
 		{
@@ -378,32 +410,6 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Ent",
-		"unitType": "Ranged",
-		"movement": 1,
-		"strength": 15,
-		"rangedStrength": 15,
-		"cost": 75,
-		"requiredResource": "SpecialEnt",
-		"uniques": [
-"[+100]% Strength <vs cities>",
-"Only available <with [SpecialEnt]> <if [Good] is constructed>",
-"Unbuildable <in cities without a [Ent Supply]>"
-                              ],
-		"attackSound": "throw"
-	},
-	{
-		"name": "Mirkwood Spider",
-		"uniqueTo": "Shelob's Lair",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 16,
-		"cost": 100,
-		"requiredTech": "Trapping",
-		"uniques": ["No defensive terrain bonus", "[+25]% Strength <in [Forest] tiles> <when attacking>", "[+25]% Strength <in [Jungle] tiles> <when attacking>","Invisible to non-adjacent units <in [Forest] tiles>","Double movement in [Forest] <in [Foreign Land] tiles>","Heals [20] damage if it kills a unit"]
-		"attackSound": "nonmetalhit"
-	},
-	{
 		"name": "Wainrider",
 		"replaces": "Horseman",
 		"uniqueTo": "Rhun",
@@ -500,22 +506,6 @@
 		"uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
-	},
-	{
-		"name": "Spider Rider"
-		"replaces": "Chariot Archer",
-		"unitType": "Ranged",
-		"uniqueTo": "Goblins",
-		"movement": 4,
-                "range": 1,
-		"strength": 9,
-		"rangedStrength": 15,
-		"cost": 70,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
-		"uniques": ["Can move after attacking"],
-		"hurryCostModifier": 20,
-		"attackSound": "arrow"
 	},
 	{
 		"name": "Ballista",
