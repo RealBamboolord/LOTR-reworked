@@ -458,7 +458,7 @@
 	{
 		"name": "Eagle's Eyrie",
 		"adjective": ["Eagle's Eyrie"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Eagle's Eyrie",
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
