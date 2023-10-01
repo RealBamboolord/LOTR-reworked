@@ -20,6 +20,10 @@
 		"resourceType": "Bonus",
 	},
 	{
+		"name": "EaglePromotion",
+		"resourceType": "Bonus",
+	},
+	{
 		"name": "SpecialSpider",
 		"resourceType": "Bonus",
 	},
