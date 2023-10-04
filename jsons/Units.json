@@ -244,6 +244,21 @@
 		]
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Corsair",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 23,
+		"cost": 150,
+		"requiredTech": "Astronomy",
+		"promotions": ["Coastal Raider I"],
+		"uniques": [
+			"May capture killed [Water] units",
+			"Only available <with [SpecialCorsair]> <if [Evil] is constructed>",
+			"Unbuildable <in cities without a [Corsair Supply]>"
+		],
+		"attackSound": "cannon"
+	},
 	
 	// First Age
 		{
