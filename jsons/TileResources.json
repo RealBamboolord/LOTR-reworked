@@ -32,6 +32,10 @@
 		"resourceType": "Bonus",
 	},
 	{
+		"name": "SpecialCorsair",
+		"resourceType": "Bonus",
+	},
+	{
 		"name": "Block",
 		"resourceType": "Bonus",
 	},
