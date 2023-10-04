@@ -20,7 +20,12 @@
 		"strength": 1,
 		"rangedStrength": 1,
 		"range": 1,
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Unbuildable",
+			"[+2] Sight <during the [Second Age]>",
+			"[+4] Sight <during the [Third Age]>",
+			"[+6] Sight <during the [Fourth Age]>",
+		]
 	},
 	{
 		"name": "Barricade Archer",
