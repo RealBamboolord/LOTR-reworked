@@ -56,13 +56,13 @@
         "friendBonusUniques": [
             "[+2 Culture] <before the [Second Age]>",
             "[+4 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
-            "[+8 Culture] <starting from the [Fourth Age]>",
+            "[+9 Culture] <starting from the [Fourth Age]>",
             "[+1 Science] from [Pasture] tiles [in capital]",
         ],
         "allyBonusUniques": [
             "[+4 Culture] <before the [Second Age]>",
             "[+8 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
-            "[+16 Culture] <starting from the [Fourth Age]>",
+            "[+17 Culture] <starting from the [Fourth Age]>",
             "[+1 Science] from [Pasture] tiles [in all cities]",
             "May buy [Beorning] units with [Gold] [in all cities] <if [Good] is constructed>"
         ],
@@ -88,6 +88,22 @@
         "color": [255, 216, 0]
     },
     {
+        "name": "Umbar",
+        "friendBonusUniques": [
+            "[+1 Happiness] <before the [Second Age]>",
+            "[+2 Happiness] <starting from the [Second Age]>",
+            "[-66]% maintenance costs <for [Water] units>",
+        ],
+        "allyBonusUniques": [
+            "[+1 Happiness] <before the [Second Age]>",
+            "[+2 Happiness] <starting from the [Second Age]>",
+            "[-66]% maintenance costs <for [Water] units>",
+			"When defeating a [{Barbarian} {Water}] unit, earn [15] Gold and recruit it <with [66]% chance>",
+            "May buy [Corsair] units with [Gold] [in all cities] <if [Evil] is constructed>"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
         "name": "Militaristic",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
         "allyBonusUniques": ["Provides military units every ≈[17] turns"],
@@ -96,7 +112,8 @@
     {
         "name": "Shelob's Lair",
         "friendBonusUniques": [
-                "[+20]% Production when constructing [Melee] units [in all cities]"
+                "Provides military units every ≈[28] turns",
+                "[+20]% Production when constructing [Melee] units [in capital]"
                         ],
         "allyBonusUniques": [
             "Provides military units every ≈[20] turns",
