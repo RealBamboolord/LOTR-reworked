@@ -451,9 +451,9 @@
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Deer] tiles in this city",
-			"[+1 Food] from [Bananas] tiles in this city",
-			"[+1 Food] from [Wheat] tiles in this city"],
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	},
 	{
@@ -466,9 +466,9 @@
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Deer] tiles in this city",
-			"[+1 Food] from [Bananas] tiles in this city",
-			"[+1 Food] from [Wheat] tiles in this city"],
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	},
 	{
@@ -515,7 +515,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"specialistSlots": {"Researcher": 1},
-		"uniques": ["[+1 Science] Per [4] Population in this city"],
+		"uniques": ["[+1 Science] per [4] population [in this city]"],
 		"requiredTech": "Writing"
 	},
 	{
@@ -858,7 +858,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Metal Casting",
 		"uniques": ["[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Lumber mill] tiles [in this city]", "[+1 Production] from [Iron] tiles in this city]"]
+			"[+1 Production] from [Lumber mill] tiles [in this city]", "[+1 Production] from [Iron] tiles [in this city]"]
 	},
 	{
 		"name": "Eregion Forge",
@@ -976,7 +976,6 @@
 	},
 	{
 		"name": "Observatory",
-		"maintenance": 0,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 50},
 		"requiredBuilding": "Library",
@@ -1057,9 +1056,9 @@
 		"name": "Meduseld",
 		"culture": 3,
 		"isWonder": true,
-		"greatPersonPoints": {"production": 2},
+		"greatPersonPoints": {"Great Engineer": 2},
 		"providesFreeBuilding": "Castle",
-		"uniques": ["+[15]% combat bonus for units fighting in [Friendly Land]"],
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
 		"requiredTech": "Economics",
 		},
 	{

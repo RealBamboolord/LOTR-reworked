@@ -59,7 +59,7 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "For the White City",
 		"uniqueText": "Workers improve tiles 25% faster, receive a free Worker when you discover Pottery",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[-25]% tile improvement construction time","Receive free [Worker] when you discover [Pottery]"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[-25]% tile improvement construction time","Free [Worker] appears <upon discovering [Pottery]>"],
 		"cities": ["Minas Tirith","Osgiliath","Ithilien","Cair Andros","Dol Amroth","Lamedon","Henneth Annun","Lossarnach","Lebennin","Anfalas","Belfalas","Morthond","Ringlo Vale","Andrast","Pelargir","Linhir","Tarnost","Ethring"]
 	},
 			{
@@ -115,7 +115,7 @@
 		"innerColor": [207, 120, 0],
 		"uniqueName": "Gather them all!",
 		"uniqueText": "Great Generals are generated 50% faster. Receives a free Nazgul when you discover Trapping. +10% Strength in Mordor Plains.",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Nazgul] is earned [50]% faster","Receive free [Nazgul] when you discover [Trapping]","Gain a free [Nazgul Supply] [in capital]","[+10]% Strength <for [Land] units> <when fighting in [Mordor Plains] tiles>"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Nazgul] is earned [50]% faster","Free [Nazgul] appears <upon discovering [Trapping]>","Gain a free [Nazgul Supply] [in capital]","[+10]% Strength <for [Land] units> <when fighting in [Mordor Plains] tiles>"],
 		"cities": ["Barad Dur","Orodruin","Gorgoroth","Udun","Nurn","Dagorlad","Durthang","Cirith Gorgor","Ered Lithui","Ered Duath","Cirith Ungol","Morgul Pass","Black Gate","Nargroth","Morgai","Morannon","Seregost","Lithlad","Carach Angren"]
 	},
 					{
@@ -171,7 +171,7 @@
 		"innerColor": [125, 145, 26],
 		"uniqueName": "Horror of the Deeps",
 		"uniqueText": "+15% Combat Bonus in Friendly Land for Land units. Melee units gain 50% more Experience from combat and can pillage without spending movement points when wounded. A Balrog appears in your capital when you discover Mining"
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+15]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>","No movement cost to pillage <for [{Wounded} {Melee}] units>","[50]% XP gained from combat <for [Melee] units>","Receive free [Balrog] when you discover [Mining]"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+15]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>","No movement cost to pillage <for [{Wounded} {Melee}] units>","[50]% XP gained from combat <for [Melee] units>","Free [Balrog] appears <upon discovering [Mining]>"],
 		"cities": ["Moria","Goblin town","Withered Heath","Ettenmoors","High Pass","Misty Mountains","Grey Mountains","Dwarrodelf","Glaurung","Ancalagon","Scatha","Gram Mountain","Rhimdath","Cold Fields","Hoardale"]
 	},
 							{
@@ -282,7 +282,7 @@
 		"innerColor": [101, 10, 18],
 		"uniqueName": "Desert Tribes",
 		"uniqueText": "Receive triple Gold from Barbarian encampments and pillaging Cities. +1 Production and +1 Food from every Ivory and +2 Culture from each Oasis.",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","Gain a free [Harad Training Grounds] [in all cities]","Receive triple Gold from Barbarian encampments and pillaging Cities","[+1 Production, +1 Food] from every [Ivory]","[+2 Culture] from every [Oasis]"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","New [Haradrim Lancer] units start with [30] Experience [in all cities]","Receive triple Gold from Barbarian encampments and pillaging Cities","[+1 Production, +1 Food] from every [Ivory]","[+2 Culture] from every [Oasis]"],
 		"cities": ["Harad","Haradwaith","Harondor","Far Harad","Sunland","Sutherland","Khand","Incanus","Harnen","Hasharin","Dalamyr","Karna","Badharkan","Hidar","Nafarat","Abrakan","Sunlending","Dharan"]
 	},
 	   {

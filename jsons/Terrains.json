@@ -130,8 +130,7 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
 			"Always Fertility [-2] for Map Generation",
-			"[+5] Strength for cities built on this terrain",
-			"[+1] Sight for [Land] units"
+			"[+5] Strength for cities built on this terrain"
 		]
 	},
 	{
@@ -145,8 +144,7 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
 			"Always Fertility [-2] for Map Generation",
-			"[+5] Strength for cities built on this terrain",
-			"[+1] Sight for [Land] units"
+			"[+5] Strength for cities built on this terrain"
 		]
 	},
 	{
