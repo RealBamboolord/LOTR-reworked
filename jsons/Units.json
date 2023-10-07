@@ -259,6 +259,45 @@
 		],
 		"attackSound": "cannon"
 	},
+	{
+		"name": "Beorning",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 28,
+		"cost": 200,
+		"requiredResource": "SpecialBeorning",
+		"uniques": [
+			"[+25]% Strength <vs [Goblins] units>",
+			"[+25]% Strength <vs [Mordor] units>",
+			"[+100]% Strength <vs [Barbarian] units>",
+			"All adjacent units heal [5] HP when healing",
+			"Can transform to [Bear Form]",
+			"Only available <with [SpecialBeorning]> <if [Good] is constructed>",
+			"Unbuildable <in cities without a [Beorning Supply]>"
+                              ],
+		"requiredTech": "Steel",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Bear Form",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 28,
+		"cost": 200,
+		"requiredResource": "SpecialBeorning",
+		"uniques": [
+			"[+40]% Strength <when attacking> <vs [Land] units>",
+			"[+35]% Strength <when attacking> <when below [50] HP>",
+			"[+100]% Strength <vs [Barbarian] units>",
+			"No defensive terrain bonus","No defensive terrain penalty","Damage is ignored when determining unit Strength","No movement cost to pillage",
+			"[-5] HP when healing","Heals [10] damage if it kills a unit",
+			"Can transform to [Beorning]",
+			"Only available <with [SpecialBeorning]> <if [Good] is constructed>",
+			"Unbuildable <in cities without a [Beorning Supply]>"
+                              ],
+		"requiredTech": "Steel",
+		"attackSound": "metalhit"
+	},
 	
 	// First Age
 		{
