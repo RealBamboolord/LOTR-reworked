@@ -56,14 +56,14 @@
         "friendBonusUniques": [
             "[+2 Culture] <before the [Second Age]>",
             "[+4 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
-            "[+9 Culture] <starting from the [Fourth Age]>",
-            "[+1 Science] from [Pasture] tiles [in capital]",
+            "[+8 Culture] <starting from the [Fourth Age]>",
+            "[+1 Culture] from [Pasture] tiles [in capital]",
         ],
         "allyBonusUniques": [
             "[+4 Culture] <before the [Second Age]>",
             "[+8 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
-            "[+17 Culture] <starting from the [Fourth Age]>",
-            "[+1 Science] from [Pasture] tiles [in all cities]",
+            "[+16 Culture] <starting from the [Fourth Age]>",
+            "[+1 Culture] from [Pasture] tiles [in all cities]",
             "May buy [Beorning] units with [Gold] [in all cities] <if [Good] is constructed>"
         ],
         "color": [139, 96, 255]
