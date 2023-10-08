@@ -303,7 +303,21 @@
 		"uniqueTo": "Shelob's Lair",
 		"cost": 1,
 		"hurryCostModifier": 40,
-		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [8] [SpecialSpider]", "Unsellable","Good"],
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [8] [SpecialSpider]", "Unsellable","Evil"],
+	},
+	{
+		"name": "Corsair Supply",
+		"uniqueTo": "Umbar",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [6] [SpecialCorsair]", "Unsellable","Evil"],
+	},
+	{
+		"name": "Dunlending Supply",
+		"uniqueTo": "Dunland",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [12] [SpecialDunlending]", "Unsellable","Evil"],
 	},
 	{
 		"name": "Harad Training Grounds",
