@@ -116,10 +116,24 @@
                 "[+20]% Production when constructing [Melee] units [in capital]"
                         ],
         "allyBonusUniques": [
-            "Provides military units every ≈[20] turns",
-            "[+20]% Production when constructing [Melee] units [in all cities]",
-            "May buy [Mirkwood Spider] units with [Gold] [in all cities] <if [Evil] is constructed>"
+        	"Provides military units every ≈[20] turns",
+        	"[+20]% Production when constructing [Melee] units [in all cities]",
+        	"May buy [Mirkwood Spider] units with [Gold] [in all cities] <if [Evil] is constructed>"
                         ],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "Dunland",
+        "friendBonusUniques": [
+		"[4] units cost no maintenance",
+		"Cities are razed [3] times as fast"
+	],
+        "allyBonusUniques": [
+		"Provides military units every ≈[20] turns",
+		"[8] units cost no maintenance",
+		"Cities are razed [3] times as fast",
+        	"May buy [Dunlending] units with [Gold] [in all cities] <if [Evil] is constructed>"
+	],
         "color": [255, 0, 0]
     },
 ]
