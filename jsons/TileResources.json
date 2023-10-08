@@ -36,6 +36,10 @@
 		"resourceType": "Bonus",
 	},
 	{
+		"name": "SpecialDunlending",
+		"resourceType": "Bonus",
+	},
+	{
 		"name": "Block",
 		"resourceType": "Bonus",
 	},
