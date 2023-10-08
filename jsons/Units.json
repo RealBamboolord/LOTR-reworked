@@ -224,6 +224,8 @@
 		"requiredResource": "SpecialEnt",
 		"uniques": [
 			"[+100]% Strength <vs cities>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
 			"Only available <with [SpecialEnt]> <if [Good] is constructed>",
 			"Unbuildable <in cities without a [Ent Supply]>"
                               ],
@@ -239,6 +241,8 @@
 		"requiredTech": "Trapping",
 		"uniques": [
 			"No defensive terrain bonus", "[+25]% Strength <in [Forest] tiles> <when attacking>", "[+25]% Strength <in [Jungle] tiles> <when attacking>","Invisible to non-adjacent units <in [Forest] tiles>","Double movement in [Forest]","Heals [20] damage if it kills a unit",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
 			"Only available <with [SpecialSpider]> <if [Evil] is constructed>",
 			"Unbuildable <in cities without a [Spider Supply]>"
 		]
@@ -254,6 +258,8 @@
 		"promotions": ["Coastal Raider I"],
 		"uniques": [
 			"May capture killed [Water] units",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
 			"Only available <with [SpecialCorsair]> <if [Evil] is constructed>",
 			"Unbuildable <in cities without a [Corsair Supply]>"
 		],
@@ -272,6 +278,8 @@
 			"[+100]% Strength <vs [Barbarian] units>",
 			"All adjacent units heal [5] HP when healing",
 			"Can transform to [Bear Form]",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
 			"Only available <with [SpecialBeorning]> <if [Good] is constructed>",
 			"Unbuildable <in cities without a [Beorning Supply]>"
                               ],
@@ -289,13 +297,33 @@
 			"[+40]% Strength <when attacking> <vs [Land] units>",
 			"[+35]% Strength <when attacking> <when below [50] HP>",
 			"[+100]% Strength <vs [Barbarian] units>",
-			"No defensive terrain bonus","No defensive terrain penalty","Damage is ignored when determining unit Strength","No movement cost to pillage",
+			"No defensive terrain bonus","No defensive terrain penalty","Damage is ignored when determining unit Strength",
 			"[-5] HP when healing","Heals [10] damage if it kills a unit",
 			"Can transform to [Beorning]",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
 			"Only available <with [SpecialBeorning]> <if [Good] is constructed>",
 			"Unbuildable <in cities without a [Beorning Supply]>"
                               ],
 		"requiredTech": "Steel",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Dunlending",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 18,
+		"cost": 65,
+		"requiredTech": "Iron Working",
+		"requiredResource": "SpecialDunlending",
+		"uniques": [
+			"No movement cost to pillage","May capture killed [Barbarian] units","Ignores Zone of Control",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
+			"Only available <with [SpecialDunlending]> <if [Evil] is constructed>",
+			"Unbuildable <in cities without a [Dunlending Supply]>"
+		]
+		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	
