@@ -56,4 +56,15 @@
         "name": "Explosive",
         "movementType": "Land"
     },
+    {
+        "name": "Flying",
+        "movementType": "Land"
+        "uniques": [
+            "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast",
+            //"Defense bonus when embarked","May attack when embarked",
+            //"[1] Movement point cost to disembark","[2] Movement point cost to embark",
+            "No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","May travel on Water tiles without embarking",
+            "[+100]% maintenance costs",
+        ]
+    },
 ]
