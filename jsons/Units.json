@@ -161,11 +161,11 @@
 	},
 	{
 		"name": "Smaug",
-		"unitType": "Melee",
+		"unitType": "Flying",
 		"movement": 4,
 		"strength": 20,
 		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "All tiles cost 1 movement", "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
+		"uniques": ["Unbuildable", "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
 	},
 	{
 		"name": "Saruman",
@@ -325,6 +325,23 @@
 		]
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Great Eagle",
+		"unitType": "Flying",
+		"movement": 4,
+		"strength": 23,
+		"cost": 160,
+		"requiredTech": "Chivalry",
+		"requiredResource": "SpecialEagle",
+		"uniques": [
+			"[+1] Sight", "May withdraw before melee ([50]%)",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
+			"Only available <with [SpecialEagle]> <if [Good] is constructed>",
+			"Unbuildable <in cities without a [Eagle Supply]>"
+		],
+		"attackSound": "throw"
 	},
 	
 	// First Age
@@ -1065,7 +1082,7 @@
 		"uniques": ["Can start an [8]-turn golden age", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", 
 			"[+15]% Strength bonus for [Military] units within [2] tiles", "May be upgraded with Fellbeasts", "Consumes [1] [Nazgul]", 
 			"Can construct [Citadel]", "Great Person - [War]", "Unbuildable"],
-		"movement": 2
+		"movement": 3
 	},
 	{
 		"name": "Nazgul-Fellbeast",
@@ -1074,9 +1091,9 @@
 		"strength": 23,
 		"requiredResource": "Fellbeast",
 		"uniques": ["Can start an [8]-turn golden age", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", 
-			"[+15]% Strength bonus for [Military] units within [2] tiles", "Will not be displayed in Civilopedia", "Can move after attacking", 
-			"Can construct [Citadel]", "Consumes [1] [Nazgul]", "Ignores terrain cost", "Only available <with [Block]>"],
-		"movement": 5,
+			"[+15]% Strength bonus for [Military] units within [2] tiles", "Will not be displayed in Civilopedia",
+			"Can construct [Citadel]", "Consumes [1] [Nazgul]","Nazgul", "Only available <with [Block]>"],
+		"movement": 3,
 		"cost": 120,
 	}
 ]
