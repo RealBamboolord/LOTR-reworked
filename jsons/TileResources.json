@@ -1,7 +1,8 @@
-[	// Victory resources
+[	
+// Victory resources
 	{
 		"name": "Ring",
-		"resourceType": "Luxury",
+		"resourceType": "Strategic",
 	},
 			{
 		"name": "Supply",
@@ -96,7 +97,6 @@
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 1}
 	},
-	/*
 	{
 		"name": "Bison",
 		"resourceType": "Bonus",
@@ -105,8 +105,6 @@
 		"improvement": "Camp",
 		"improvementStats": {"food": 1}
 	},
-	*/
-	
 	// Strategic resources
 	{
 		"name": "Horses",
@@ -154,7 +152,6 @@
 		"improvement": "Mine",
 		"improvementStats": {"gold": 1},
 	},
-	
 	// Luxury resources
 	{
 		"name": "Furs",
