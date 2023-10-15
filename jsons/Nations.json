@@ -407,6 +407,7 @@
 		"cities": ["Dunland"]
 	},
 	{
+		//Pointless
 		"name": "Tol Morwen",
 		"adjective": ["Tol Morwen"],
 		"cityStateType": "Mercantile",
@@ -420,6 +421,7 @@
 		"cities": ["Tol Morwen"]
 	},
 	{
+		//Only used on one map
 		"name": "Numenor",
 		"adjective": ["Numenor"],
 		"cityStateType": "Maritime",
@@ -446,6 +448,7 @@
 		"cities": ["Bree"]
 	},
 	{
+		//"no one lives there canonically, but makes sense gameplaywise",
 		"name": "Himling",
 		"adjective": ["Himling"],
 		"cityStateType": "Maritime",
@@ -494,10 +497,10 @@
 		"name": "Paths of the Dead",
 		"adjective": ["Paths of the Dead"],
 		"cityStateType": "Militaristic",
-		"uniques": [
+		/*"uniques": [
             		"[-66]% maintenance costs <for [Water] units>",
 			"When defeating a [{Barbarian} {Water}] unit, earn [15] Gold and recruit it <with [66]% chance>"
-		],
+		], placeholders*/
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -522,6 +525,7 @@
 		"cities": ["Shelob's Lair"]
 	},
 	{
+		//makes no sense -> replace with Khand
 		"name": "Avathar",
 		"adjective": ["Avathar"],
 		"cityStateType": "Militaristic",
@@ -558,6 +562,7 @@
 		"cities": ["Lossoth"]
 	},
 	{
+		//Home of Radagast the Brown
 		"name": "Rhosgobel",
 		"adjective": ["Rhosgobel"],
 		"cityStateType": "Mercantile",
@@ -615,6 +620,7 @@
 		"cities": ["Kingdom of Rhovanion"]
 	},
 	{
+		//"settlement in Beleriand, pointless",
 		"name": "Ephel Brandir",
 		"adjective": ["Ephel Brandir"],
 		"cityStateType": "Mercantile",
