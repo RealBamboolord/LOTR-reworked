@@ -164,7 +164,7 @@
 		"unitType": "Flying",
 		"movement": 4,
 		"strength": 20,
-		"promotions": ["Hero"],
+		"promotions": ["Hero","Dragon"],
 		"uniques": ["Unbuildable", "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
 	},
 	{
@@ -1091,9 +1091,9 @@
 		"uniqueTo": "Mordor",
 		"strength": 23,
 		"requiredResource": "Fellbeast",
-		"uniques": ["Can start an [8]-turn golden age", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", 
-			"[+15]% Strength bonus for [Military] units within [2] tiles", "Unable to capture cities",
-			"Can construct [Citadel]", "Consumes [1] [Nazgul]","Nazgul", "Only available <with [Block]>"],
+		"promotions": ["Beast"],
+		"uniques": ["Unable to capture cities","Nazgul", "Unbuildable",
+			"Consumes [1] [Nazgul]", "Only available <with [Block]>"],
 		"movement": 3,
 		"cost": 120,
 	}
