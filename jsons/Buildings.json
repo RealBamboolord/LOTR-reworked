@@ -962,19 +962,20 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured","Free [Bombardment Archer] appears"],
 		"requiredTech": "Chivalry"
 	},
 	{
 		"name": "Barricade",
 		"replaces": "Castle",
 		"uniqueTo": "Mordor",
-		"cityStrength": 3,
-		"cityHealth": 25,
+		"production": 2,
+		"cityStrength": 8,
+		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry"
-		"uniques": ["Free [Barricade Archer] appears"],
+		"uniques": ["Destroyed when the city is captured","Free [Barricade Archer] appears"],
 	},
 	{
 		"name": "Dol Guldur",
