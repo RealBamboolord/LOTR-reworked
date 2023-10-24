@@ -57,7 +57,7 @@
 		"promotions": ["Hero"],
 		"requiredTech": "Horseback Riding",
 		"uniques": ["Never appears as a Barbarian unit","Consumes [1] [Special]", "Only available <with [Special]>", 
-			"[50]% Strength <vs [Balrog] units>", "Ignores Zone of Control", "Unbuildable"],
+			"[+50]% Strength <vs [Balrog] units>", "[+50]% Strength <vs [Nazgul] units>", "Ignores Zone of Control", "Unbuildable"],
 	},
 	{
 		"name": "Eowyn",
