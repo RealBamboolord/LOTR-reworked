@@ -962,7 +962,7 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
-		"uniques": ["Destroyed when the city is captured","Free [Bombardment Archer] appears"],
+		"uniques": ["Destroyed when the city is captured","Free [Bombardment Archer] appears","Unsellable"],
 		"requiredTech": "Chivalry"
 	},
 	{
@@ -975,7 +975,7 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry"
-		"uniques": ["Destroyed when the city is captured","Free [Barricade Archer] appears"],
+		"uniques": ["Destroyed when the city is captured","Free [Barricade Archer] appears","Unsellable"],
 	},
 	{
 		"name": "Dol Guldur",
