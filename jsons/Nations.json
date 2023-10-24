@@ -496,11 +496,12 @@
 	{
 		"name": "Paths of the Dead",
 		"adjective": ["Paths of the Dead"],
-		"cityStateType": "Militaristic",
-		/*"uniques": [
-            		"[-66]% maintenance costs <for [Water] units>",
-			"When defeating a [{Barbarian} {Water}] unit, earn [15] Gold and recruit it <with [66]% chance>"
-		], placeholders*/
+		"cityStateType": "Paths of the Dead",
+		"uniques": [
+			"[-1] Movement <for [Dead Man of Dunharrow] units> <in [Enemy land] tiles>",
+			"[+20]% Strength <in [Friendly land] tiles>",
+			"[-20]% Strength <for [Dead Man of Dunharrow] units> <in [Friendly land] tiles>",
+		],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
