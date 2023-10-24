@@ -110,6 +110,20 @@
         "color": [255, 0, 0]
     },
     {
+        "name": "Paths of the Dead",
+        "friendBonusUniques": [
+		"Provides military units every ≈[20] turns",
+	],
+        "allyBonusUniques": [
+		"Provides military units every ≈[20] turns",
+		"[+10]% Strength <in [Friendly land] tiles>",
+		"Gain the ability to make the men of the Mountain pledge an oath to you before the Third Age",
+		"When having an Oath, summon the dead with a unique world wonder when at war starting from the Third Age",
+		"[-10]% Strength <for [Dead Man of Dunharrow] units> <in [Friendly land] tiles>"
+	],
+        "color": [255, 0, 0]
+    },
+    {
         "name": "Shelob's Lair",
         "friendBonusUniques": [
                 "Provides military units every ≈[28] turns",
