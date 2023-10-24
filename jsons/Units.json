@@ -369,6 +369,54 @@
 		],
 		"attackSound": "throw"
 	},
+	{
+		"name": "Man of the Mountains FA",
+		"replaces": "Spearman",
+		"uniqueTo": "Paths of the Dead",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 13,
+		"cost": 56,
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Man of the Mountains SA",
+		"replaces": "Pikeman",
+		"uniqueTo": "Paths of the Dead",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 20,
+		"cost": 80,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Dead Man of Dunharrow",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Ignores terrain cost"],
+		"upgradesTo": "Longswordsman",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Dead Man of Dunharrow",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 1,
+		"cost": 140,
+		"requiredTech": "Steel",
+		"uniques": [
+			"[+1000]% Strength <when defending>",
+			"Can pass through impassable tiles","All tiles cost 1 movement",
+			"Can see invisible [All] units","[-2] Sight",
+			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles","Can only attack [Miltary] units",
+			"Unit will heal every turn, even if it performs an action","[-25] HP when healing","[-5] HP when healing <in [Friendly Land] tiles>",
+			"Never appears as a Barbarian unit",
+			"Unbuildable <in cities without a [Dead Supply]>"
+		],
+		"attackSound": "throw"
+	},
 	
 	// First Age
 		{
