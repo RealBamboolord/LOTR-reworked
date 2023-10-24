@@ -40,6 +40,10 @@
 		"resourceType": "Bonus",
 	},
 	{
+		"name": "SpecialDead",
+		"resourceType": "Bonus",
+	},
+	{
 		"name": "Block",
 		"resourceType": "Bonus",
 	},
