@@ -15,12 +15,18 @@
 	{
 		"name": "Watchtower Guard",
 		"unitType": "Fighter",
-		"uniqueTo": "Arnor",
 		"movement": 0,
 		"strength": 1,
 		"rangedStrength": 1,
 		"range": 1,
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Unbuildable",
+			"Cannot attack",
+			"[+1] Sight <starting from the [Second Age]>",
+			"[+1] Range <starting from the [Third Age]>",
+			"[+1] Sight <starting from the [Third Age]>",
+			"[+1] Range <starting from the [Fourth Age]>",
+		]
 	},
 	{
 		"name": "Barricade Archer",
@@ -466,7 +472,7 @@
 		"movement": 3,
 		"strength": 5,
 		"cost": 25,
-		"uniques": ["Ignores terrain cost"],
+		"uniques": ["May upgrade to [Horseman] through ruins-like effects", "Ignores terrain cost","[+33]% Strength when stacked with [Settler]","[+33]% Strength <vs [Barbarian] units> <when defending>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -807,6 +813,19 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Shirriff",
+		"replaces": "Pikeman",
+		"uniqueTo": "The Shire",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 20,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Barbarian] units>","[+25]% Strength <when fighting units from a Civilization with more Cities than you>"],
+		"upgradesTo": "Longswordsman",
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Tower Guard",
 		"replaces": "Pikeman",
 		"uniqueTo": "Gondor",
@@ -1116,32 +1135,32 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable"],
+		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable"],
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable"],
+		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable"],
 		"movement": 2
 	},
@@ -1153,16 +1172,17 @@
 		"replaces": "Great General",
 		"upgradesTo": "Nazgul-Fellbeast",
 		"cost": 80,
-		"uniques": ["Can start an [8]-turn golden age", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", 
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", 
 			"[+15]% Strength bonus for [Military] units within [2] tiles", "May be upgraded with Fellbeasts", "Consumes [1] [Nazgul]", 
-			"Can construct [Citadel]", "Great Person - [War]", "Unbuildable"],
-		"movement": 3
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable"],
+		  "movement": 3
 	},
 	{
 		"name": "Nazgul-Fellbeast",
 		"unitType": "Flying",
 		"uniqueTo": "Mordor",
 		"strength": 23,
+		"requiredTech": "Chivalry",
 		"requiredResource": "Fellbeast",
 		"promotions": ["Beast"],
 		"uniques": ["Unable to capture cities","Nazgul", "Unbuildable",

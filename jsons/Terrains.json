@@ -130,8 +130,7 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
 			"Always Fertility [-2] for Map Generation",
-			"[+5] Strength for cities built on this terrain",
-			"[+1] Sight for [Land] units"
+			"[+5] Strength for cities built on this terrain"
 		]
 	},
 	{
@@ -145,8 +144,7 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
 			"Always Fertility [-2] for Map Generation",
-			"[+5] Strength for cities built on this terrain",
-			"[+1] Sight for [Land] units"
+			"[+5] Strength for cities built on this terrain"
 		]
 	},
 	{
@@ -339,10 +337,24 @@
 		"unbuildable": true,
 		"weight": 5
 	},
-	
-	
-	
-	
+	{
+		"name": "Mount Weathertop",
+		"type": "NaturalWonder",
+		"production": 2,
+		"culture": 2,
+		"gold": 1,
+		"occursOn": ["Plains","Hill"],
+		"turnsInto": "Plains",
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [2] to [6] [Hill] tiles",
+			"Must be adjacent to [2] to [6] [Plains] tiles","Hill","Mountains",
+			"Rough terrain",
+			"[+10] Strength for cities built on this terrain",
+			"Has an elevation of [3] for visibility calculations"],
+		"defenceBonus": 0.25,
+		"weight": 10
+	},
 	//Vanilla
 	{
 		"name": "Great Barrier Reef",
@@ -365,8 +377,6 @@
 		"name": "Old Faithful",
 		"type": "NaturalWonder",
 		"science": 2,
-		"happiness": 3,
-		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] to [4] [Mountain] tiles",
 			"Must be adjacent to [3] to [6] [Elevated] tiles",
@@ -376,6 +386,8 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
+		"happiness": 3,
+		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
 	},
 	{
 		"name": "El Dorado",

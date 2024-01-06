@@ -59,7 +59,7 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "For the White City",
 		"uniqueText": "Workers improve tiles 25% faster, receive a free Worker when you discover Pottery",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[-25]% tile improvement construction time","Receive free [Worker] when you discover [Pottery]"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[-25]% tile improvement construction time","Free [Worker] appears <upon discovering [Pottery]>"],
 		"cities": ["Minas Tirith","Osgiliath","Ithilien","Cair Andros","Dol Amroth","Lamedon","Henneth Annun","Lossarnach","Lebennin","Anfalas","Belfalas","Morthond","Ringlo Vale","Andrast","Pelargir","Linhir","Tarnost","Ethring"]
 	},
 			{
@@ -115,7 +115,7 @@
 		"innerColor": [207, 120, 0],
 		"uniqueName": "Gather them all!",
 		"uniqueText": "Great Generals are generated 50% faster. Receives a free Nazgul when you discover Trapping. +10% Strength in Mordor Plains.",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Nazgul] is earned [50]% faster","Receive free [Nazgul] when you discover [Trapping]","Gain a free [Nazgul Supply] [in capital]","[+10]% Strength <for [Land] units> <when fighting in [Mordor Plains] tiles>"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Nazgul] is earned [50]% faster","Free [Nazgul] appears <upon discovering [Trapping]>","Gain a free [Nazgul Supply] [in capital]","[+10]% Strength <for [Land] units> <when fighting in [Mordor Plains] tiles>"],
 		"cities": ["Barad Dur","Orodruin","Gorgoroth","Udun","Nurn","Dagorlad","Durthang","Cirith Gorgor","Ered Lithui","Ered Duath","Cirith Ungol","Morgul Pass","Black Gate","Nargroth","Morgai","Morannon","Seregost","Lithlad","Carach Angren"]
 	},
 					{
@@ -171,7 +171,7 @@
 		"innerColor": [125, 145, 26],
 		"uniqueName": "Horror of the Deeps",
 		"uniqueText": "+15% Combat Bonus in Friendly Land for Land units. Melee units gain 50% more Experience from combat and can pillage without spending movement points when wounded. A Balrog appears in your capital when you discover Mining"
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+15]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>","No movement cost to pillage <for [{Wounded} {Melee}] units>","[50]% XP gained from combat <for [Melee] units>","Receive free [Balrog] when you discover [Mining]"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+15]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>","No movement cost to pillage <for [{Wounded} {Melee}] units>","[50]% XP gained from combat <for [Melee] units>","Free [Balrog] appears <upon discovering [Mining]>"],
 		"cities": ["Moria","Goblin town","Withered Heath","Ettenmoors","High Pass","Misty Mountains","Grey Mountains","Dwarrodelf","Glaurung","Ancalagon","Scatha","Gram Mountain","Rhimdath","Cold Fields","Hoardale"]
 	},
 							{
@@ -282,7 +282,7 @@
 		"innerColor": [101, 10, 18],
 		"uniqueName": "Desert Tribes",
 		"uniqueText": "Receive triple Gold from Barbarian encampments and pillaging Cities. +1 Production and +1 Food from every Ivory and +2 Culture from each Oasis.",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","Gain a free [Harad Training Grounds] [in all cities]","Receive triple Gold from Barbarian encampments and pillaging Cities","[+1 Production, +1 Food] from every [Ivory]","[+2 Culture] from every [Oasis]"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","New [Haradrim Lancer] units start with [30] Experience [in all cities]","Receive triple Gold from Barbarian encampments and pillaging Cities","[+1 Production, +1 Food] from every [Ivory]","[+2 Culture] from every [Oasis]"],
 		"cities": ["Harad","Haradwaith","Harondor","Far Harad","Sunland","Sutherland","Khand","Incanus","Harnen","Hasharin","Dalamyr","Karna","Badharkan","Hidar","Nafarat","Abrakan","Sunlending","Dharan"]
 	},
 	   {
@@ -339,6 +339,34 @@
 		"uniqueText": "All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", 
 		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
 		"cities": ["Mirkwood","Amon Lanc","Emyn Duir","Eryn Lasgalen","Carrock","Anduin Valley","Eastern Mirkwood","Emyn-Nu-Fuin","Greenwood","Taun-Nu-Fuin","Gladden Fields","Taur-En-Daedelos","Langwell","East Blight","Greylin","Langflood"]
+	},
+	{
+		"name": "The Shire",
+		"leaderName": "Peregrin Took",
+		"adjective": ["Shire"],
+		"style": "hobbit",
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Hi Peregrin Took, thirty second Thain of the Shire!",
+		//"startIntroPart2": "You have awaken from your long slumber, and now the rohirrims are counting on you to lead them to a brighter tomorrow. Your neighbours won't leave you much room for peace and you may have to carve your peace with the tip of the spear. But, thanks to your leadership, Rohan might become strong enough to tip the scale in a war between Gondor and Mordor, who knows ?",
+		
+		"declaringWar": "Hobbits never go to war. But this time, you deserve it",
+		"attacked": "We Hobbits may not have a real military, but we sure know how to defend ourselfs in times of need",
+		"defeated": "Now it is over, the Shire is no more. One merry place less in Middle Earth",
+		"introduction": "I am Peregrin Took, thirty second Thain of the Shire!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [159, 176, 97],
+		"innerColor": [119, 39, 190],
+		"uniqueName": "The Road goes ever on",
+		"uniqueText": "-15% maintenance cost for buildings in all cities and +1 Happiness in cities on Grassland tiles. Roads cost 33% less maintenance and provide 1 Culture each during a Golden Age."
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[+1 Happiness] in cities on [Grassland] tiles","[+1 Culture] from every [Road] <during a Golden Age>","[-50]% maintenance on road & railroads","[-15]% maintenance cost for buildings [in all cities]"],
+		"cities": ["Michel Delving","Tuckborough","Hobbiton","Waymoot","Bywater","Tookbank","Longbottom","Oatborton","Gamwich","Frogmorton","Whitfurrows","Brokenborings","Whitfurrows","Long Cleeve","Hardbottle","Whitwell","Scary","Dwaling","Little Delving","Overhill","Needlehole","Nobottle","Bucklebury","Crickhollow","Greenholm","Undertowers"]
 	},
 	//City-States
 	{
