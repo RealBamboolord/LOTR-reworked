@@ -275,7 +275,7 @@
 		"uniqueTo": "Arnor",
 		"cost": 20,
 		"hurryCostModifier": 40,
-		"uniques": ["Destroyed when the city is captured","Can only be built [in capital]", "Free [Watchtower Guard] appears", "Unsellable"],
+		"uniques": ["Destroyed when the city is captured","Can only be built [in capital]", "Free [Watchtower Guard] appears", "[3] Unit Supply", "Unsellable"],
 	},
 	{
 		"name": "Ent Supply",
