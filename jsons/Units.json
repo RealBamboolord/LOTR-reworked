@@ -1186,7 +1186,7 @@
 		"requiredResource": "Fellbeast",
 		"promotions": ["Beast"],
 		"uniques": ["Unable to capture cities","Nazgul", "Unbuildable",
-			"Consumes [1] [Nazgul]", "Only available <with [Block]>"],
+			"Consumes [1] [Nazgul]","[-40]% Strength <before the [Third Age]>", "Only available <with [Block]>"],
 		"movement": 3,
 		"cost": 120,
 	}
