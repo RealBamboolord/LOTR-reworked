@@ -326,6 +326,7 @@
 		"requiredResource": "SpecialBeorning",
 		"uniques": [
 			"[+40]% Strength <when attacking> <vs [Land] units>",
+			"[-25]% Strength <when defending> <vs [Land] units>",
 			"[+35]% Strength <when attacking> <when below [50] HP>",
 			"[+100]% Strength <vs [Barbarian] units>",
 			"No defensive terrain bonus","No defensive terrain penalty","Damage is ignored when determining unit Strength",
