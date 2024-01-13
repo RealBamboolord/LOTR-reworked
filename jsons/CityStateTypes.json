@@ -14,6 +14,61 @@
         "color": [139, 96, 255]
     },
     {
+        "name": "Entwood",
+        "friendBonusUniques": [
+            "[+2 Culture] <before the [Second Age]>",
+            "[+4 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+9 Culture] <starting from the [Fourth Age]>",
+            "[+1 Gold] from [Forest] tiles [in capital]"
+        ],
+        "allyBonusUniques": [
+            "[+4 Culture] <before the [Second Age]>",
+            "[+8 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+17 Culture] <starting from the [Fourth Age]>",
+            "[+1 Gold] from [Forest] tiles [in all cities]",
+            "May buy [Ent] units with [Gold] [in all cities] <if [Good] is constructed>"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Eagle's Eyrie",
+        "friendBonusUniques": [
+            "[+2 Culture] <before the [Second Age]>",
+            "[+4 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+9 Culture] <starting from the [Fourth Age]>",
+            "Unlocks Eagle's Escort Promotion for Hero and Melee units",
+            "Provides [1] [EaglePromotion]"
+        ],
+        "allyBonusUniques": [
+            "[+4 Culture] <before the [Second Age]>",
+            "[+8 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+17 Culture] <starting from the [Fourth Age]>",
+            "[+1 Production] from [Mountains] tiles [in all cities]",
+            "No Maintenance costs for improvements in [Mountains] tiles",
+            "Unlocks Eagle's Escort Promotion for Hero and Melee units",
+            "Provides [1] [EaglePromotion]",
+            "May buy [Great Eagle] units with [Gold] [in all cities] <if [Good] is constructed>"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Beorn's Hall",
+        "friendBonusUniques": [
+            "[+2 Culture] <before the [Second Age]>",
+            "[+4 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+8 Culture] <starting from the [Fourth Age]>",
+            "[+1 Culture] from [Pasture] tiles [in capital]",
+        ],
+        "allyBonusUniques": [
+            "[+4 Culture] <before the [Second Age]>",
+            "[+8 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
+            "[+16 Culture] <starting from the [Fourth Age]>",
+            "[+1 Culture] from [Pasture] tiles [in all cities]",
+            "May buy [Beorning] units with [Gold] [in all cities] <if [Good] is constructed>"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
         "name": "Maritime",
         "friendBonusUniques": ["[+2 Food] [in capital]"],
         "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
@@ -33,9 +88,66 @@
         "color": [255, 216, 0]
     },
     {
+        "name": "Umbar",
+        "friendBonusUniques": [
+            "[+1 Happiness] <before the [Second Age]>",
+            "[+2 Happiness] <starting from the [Second Age]>",
+            "[-66]% maintenance costs <for [Water] units>",
+        ],
+        "allyBonusUniques": [
+            "[+1 Happiness] <before the [Second Age]>",
+            "[+2 Happiness] <starting from the [Second Age]>",
+            "[-66]% maintenance costs <for [Water] units>",
+			"When defeating a [{Barbarian} {Water}] unit, earn [15] Gold and recruit it <with [66]% chance>",
+            "May buy [Corsair] units with [Gold] [in all cities] <if [Evil] is constructed>"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
         "name": "Militaristic",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
         "allyBonusUniques": ["Provides military units every ≈[17] turns"],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "Paths of the Dead",
+        "friendBonusUniques": [
+		"Provides military units every ≈[20] turns",
+	],
+        "allyBonusUniques": [
+		"Provides military units every ≈[20] turns",
+		"[+10]% Strength <in [Friendly land] tiles>",
+		"Gain the ability to make the men of the Mountain pledge an oath to you before the Third Age",
+		"When having an Oath, summon the dead with a unique world wonder when at war starting from the Third Age",
+		"[-10]% Strength <for [Dead Man of Dunharrow] units> <in [Friendly land] tiles>"
+	],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "Shelob's Lair",
+        "friendBonusUniques": [
+                "Provides military units every ≈[28] turns",
+                "[+20]% Production when constructing [Melee] units [in capital]"
+                        ],
+        "allyBonusUniques": [
+        	"Provides military units every ≈[20] turns",
+        	"[+20]% Production when constructing [Melee] units [in all cities]",
+        	"May buy [Mirkwood Spider] units with [Gold] [in all cities] <if [Evil] is constructed>"
+                        ],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "Dunland",
+        "friendBonusUniques": [
+		"[4] units cost no maintenance",
+		"Cities are razed [3] times as fast"
+	],
+        "allyBonusUniques": [
+		"Provides military units every ≈[20] turns",
+		"[8] units cost no maintenance",
+		"Cities are razed [3] times as fast",
+        	"May buy [Dunlending] units with [Gold] [in all cities] <if [Evil] is constructed>"
+	],
         "color": [255, 0, 0]
     },
 ]

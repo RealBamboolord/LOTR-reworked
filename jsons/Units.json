@@ -31,13 +31,38 @@
 	{
 		"name": "Barricade Archer",
 		"uniqueTo": "Mordor",
+		"replaces": "Bombardment Archer",
 		"unitType": "Bomber",
 		"range": 1,
 		"movement": 1,
-		"strength": 1,
+		"strength": 5,
 		"rangedStrength": 19,
 		"cost": 75,
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"],
+		"uniques": ["Unbuildable"],
+		"attackSound": "arrow",
+	},
+	{
+		"name": "Bombardment Archer",
+		"unitType": "Bomber",
+		"range": 1,
+		"movement": 1,
+		"strength": 5,
+		"rangedStrength": 14,
+		"cost": 75,
+		"uniques": ["Unbuildable"],
+		"attackSound": "arrow",
+	},
+	{
+		"name": "Mumakil Tower Archer",
+		"replaces": "Bombardment Archer",
+		"uniqueTo": "Harad",
+		"unitType": "Bomber",
+		"range": 1,
+		"movement": 1,
+		"strength": 5,
+		"rangedStrength": 10,
+		"cost": 75,
+		"uniques": ["Unbuildable","[+25]% Strength <when fighting in [Desert] tiles>","[+50]% Strength when stacked with [Mumakil]","Can transform to [Haradrim Archer]"],
 		"attackSound": "arrow",
 	},
 	
@@ -63,7 +88,7 @@
 		"promotions": ["Hero"],
 		"requiredTech": "Horseback Riding",
 		"uniques": ["Never appears as a Barbarian unit","Consumes [1] [Special]", "Only available <with [Special]>", 
-			"[50]% Strength <vs [Balrog] units>", "Ignores Zone of Control", "Unbuildable"],
+			"[+50]% Strength <vs [Balrog] units>", "[+50]% Strength <vs [Nazgul] units>", "Ignores Zone of Control", "Unbuildable"],
 	},
 	{
 		"name": "Eowyn",
@@ -167,11 +192,11 @@
 	},
 	{
 		"name": "Smaug",
-		"unitType": "Melee",
+		"unitType": "Flying",
 		"movement": 4,
 		"strength": 20,
-		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "All tiles cost 1 movement", "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
+		"promotions": ["Hero","Dragon"],
+		"uniques": ["Unbuildable", "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
 	},
 	{
 		"name": "Saruman",
@@ -217,6 +242,187 @@
 		"strength": 20,
 		"promotions": ["Hero"],
 		"uniques": ["Unbuildable",]
+	},
+
+	// City States + Mercenaries
+	{
+		"name": "Ent",
+		"unitType": "Ranged",
+		"movement": 1,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 75,
+		"requiredResource": "SpecialEnt",
+		"uniques": [
+			"[+100]% Strength <vs cities>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
+			"Only available <with [SpecialEnt]> <if [Good] is constructed>",
+			"Unbuildable <in cities without a [Ent Supply]>"
+                              ],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Mirkwood Spider",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"requiredResource": "SpecialSpider",
+		"requiredTech": "Trapping",
+		"uniques": [
+			"No defensive terrain bonus", "[+25]% Strength <in [Forest] tiles> <when attacking>", "[+25]% Strength <in [Jungle] tiles> <when attacking>","Invisible to non-adjacent units <in [Forest] tiles>","Double movement in [Forest]","Heals [20] damage if it kills a unit",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
+			"Only available <with [SpecialSpider]> <if [Evil] is constructed>",
+			"Unbuildable <in cities without a [Spider Supply]>"
+		]
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Corsair",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 23,
+		"cost": 150,
+		"requiredTech": "Astronomy",
+		"promotions": ["Coastal Raider I"],
+		"uniques": [
+			"May capture killed [Water] units",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
+			"Only available <with [SpecialCorsair]> <if [Evil] is constructed>",
+			"Unbuildable <in cities without a [Corsair Supply]>"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Beorning",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 28,
+		"cost": 200,
+		"requiredResource": "SpecialBeorning",
+		"uniques": [
+			"[+25]% Strength <vs [Goblins] units>",
+			"[+25]% Strength <vs [Mordor] units>",
+			"[+100]% Strength <vs [Barbarian] units>",
+			"All adjacent units heal [5] HP when healing",
+			"Can transform to [Bear Form]",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
+			"Only available <with [SpecialBeorning]> <if [Good] is constructed>",
+			"Unbuildable <in cities without a [Beorning Supply]>"
+                              ],
+		"requiredTech": "Steel",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Bear Form",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 28,
+		"cost": 200,
+		"requiredResource": "SpecialBeorning",
+		"uniques": [
+			"[+40]% Strength <when attacking> <vs [Land] units>",
+			"[-25]% Strength <when defending> <vs [Land] units>",
+			"[+35]% Strength <when attacking> <when below [50] HP>",
+			"[+100]% Strength <vs [Barbarian] units>",
+			"No defensive terrain bonus","No defensive terrain penalty","Damage is ignored when determining unit Strength",
+			"[-5] HP when healing","Heals [10] damage if it kills a unit",
+			"Can transform to [Beorning]",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
+			"Only available <with [SpecialBeorning]> <if [Good] is constructed>",
+			"Unbuildable <in cities without a [Beorning Supply]>"
+                              ],
+		"requiredTech": "Steel",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Dunlending",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 18,
+		"cost": 65,
+		"requiredTech": "Iron Working",
+		"requiredResource": "SpecialDunlending",
+		"uniques": [
+			"No movement cost to pillage","May capture killed [Barbarian] units","Ignores Zone of Control",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
+			"Only available <with [SpecialDunlending]> <if [Evil] is constructed>",
+			"Unbuildable <in cities without a [Dunlending Supply]>"
+		]
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Great Eagle",
+		"unitType": "Flying",
+		"movement": 4,
+		"strength": 23,
+		"cost": 160,
+		"requiredTech": "Chivalry",
+		"requiredResource": "SpecialEagle",
+		"promotions": ["Eagle's Vision"],
+		"uniques": [
+			"May withdraw before melee ([50]%)", "Unable to capture cities",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit",
+			"Only available <with [SpecialEagle]> <if [Good] is constructed>",
+			"Unbuildable <in cities without a [Eagle Supply]>"
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Man of the Mountains FA",
+		"replaces": "Spearman",
+		"uniqueTo": "Paths of the Dead",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 13,
+		"cost": 56,
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Man of the Mountains SA",
+		"replaces": "Pikeman",
+		"uniqueTo": "Paths of the Dead",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 20,
+		"cost": 80,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Dead Man of Dunharrow",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Ignores terrain cost"],
+		"upgradesTo": "Longswordsman",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Dead Man of Dunharrow",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 1,
+		"cost": 140,
+		"requiredTech": "Steel",
+		"uniques": [
+			"[+1000]% Strength <when defending>",
+			"Can pass through impassable tiles","All tiles cost 1 movement",
+			"Can see invisible [All] units","[-2] Sight",
+			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles","Can only attack [Miltary] units",
+			"Unit will heal every turn, even if it performs an action","[-25] HP when healing","[-5] HP when healing <in [Friendly Land] tiles>",
+			"Never appears as a Barbarian unit",
+			"Unbuildable <in cities without a [Dead Supply]>"
+		],
+		"attackSound": "throw"
 	},
 	
 	// First Age
@@ -384,29 +590,6 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Ent",
-		"uniqueTo": "Entwood",
-		"unitType": "Ranged",
-		"movement": 1,
-		"strength": 15,
-		"rangedStrength": 15,
-		"cost": 75,
-		"requiredResource": "SpecialEnt",
-		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Rough terrain penalty"],
-		"attackSound": "throw"
-	},
-	{
-		"name": "Mirkwood Spider",
-		"uniqueTo": "Shelob's Lair",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 16,
-		"cost": 100,
-		"requiredTech": "Trapping",
-		"uniques": ["No defensive terrain bonus", "[+25]% Strength <in [Forest] tiles> <when attacking>", "[+25]% Strength <in [Jungle] tiles> <when attacking>","Invisible to non-adjacent units <in [Forest] tiles>","Double movement in [Forest]","Heals [20] damage if it kills a unit"]
-		"attackSound": "nonmetalhit"
-	},
-	{
 		"name": "Wainrider",
 		"replaces": "Horseman",
 		"uniqueTo": "Rhun",
@@ -503,22 +686,6 @@
 		"uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
-	},
-	{
-		"name": "Spider Rider"
-		"replaces": "Chariot Archer",
-		"unitType": "Ranged",
-		"uniqueTo": "Goblins",
-		"movement": 4,
-                "range": 1,
-		"strength": 9,
-		"rangedStrength": 15,
-		"cost": 70,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
-		"uniques": ["Can move after attacking"],
-		"hurryCostModifier": 20,
-		"attackSound": "arrow"
 	},
 	{
 		"name": "Ballista",
@@ -910,7 +1077,7 @@
 		"cost": 245,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "[-15]% Strength for enemy [Land] units in adjacent [Land] tiles", "No defensive terrain bonus", "[-33]% Strength <vs cities>"],
+		"uniques": ["Can move after attacking", "[-15]% Strength for enemy [Land] units in adjacent [Land] tiles", "No defensive terrain bonus", "[-33]% Strength <vs cities>","Can carry [1] [Mumakil Tower Archer] units"],
 		"promotions": ["Formation I"],
 		"attackSound": "horse"
 	},
@@ -1009,20 +1176,19 @@
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", 
 			"[+15]% Strength bonus for [Military] units within [2] tiles", "May be upgraded with Fellbeasts", "Consumes [1] [Nazgul]", 
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable"],
-		"movement": 2
+		  "movement": 3
 	},
 	{
 		"name": "Nazgul-Fellbeast",
-		"unitType": "Mounted",
+		"unitType": "Flying",
 		"uniqueTo": "Mordor",
 		"strength": 23,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Fellbeast",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", 
-			"[+15]% Strength bonus for [Military] units within [2] tiles", "Will not be displayed in Civilopedia", "Can move after attacking",
-			"Consumes [1] [Nazgul]", "Ignores terrain cost", "[-40]% Strength <before the [Third Age]>", "Only available <with [Block]>"
-		],
-		"movement": 4,
+		"promotions": ["Beast"],
+		"uniques": ["Unable to capture cities","Nazgul", "Unbuildable",
+			"Consumes [1] [Nazgul]","[-40]% Strength <before the [Third Age]>", "Only available <with [Block]>"],
+		"movement": 3,
 		"cost": 120,
 	}
 ]

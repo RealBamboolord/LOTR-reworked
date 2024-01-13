@@ -58,7 +58,7 @@
 	{
 		"name": "Indirect Fire",
 		"prerequisites": ["Accuracy III","Barrage III"],
-		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"uniques": ["Ranged attacks may be performed over obstacles","[+50]% Strength <vs [Flying] units> <when attacking>"],
 		"unitTypes": ["Ranged","Siege","Ranged Water"]
 	},
 	
@@ -105,7 +105,7 @@
 		"unitTypes": ["Mounted"]
 	},
 	{
-		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
+		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations,
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Melee"]
@@ -113,21 +113,21 @@
 	{
 		"name": "Formation I",
 		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Flying] units> <when defending>"],
 		"unitTypes": ["Melee","Mounted"]
 	},
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Flying] units> <when defending>"],
 		"unitTypes": ["Melee","Mounted"]
 	},
 	
 	{
 		"name": "Blitz",
-		"prerequisites": ["Shock III","Drill III"],
+		"prerequisites": ["Shock III","Drill III","Swift Wings III","Sky Drop III","Fire Breath III","Beak & Talons III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Melee","Mounted"]
+		"unitTypes": ["Melee","Mounted","Flying"]
 	},
 	{
 		"name": "Woodsman",
@@ -170,6 +170,109 @@
 		"name": "Survivalism",
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Scout"]
+	},
+
+	//Flying
+	{
+		"name": "Swift Wings I",
+		"uniques": ["Can pass through impassable tiles","[+25]% to Flank Attack bonuses"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Swift Wings II",
+		"prerequisites": ["Swift Wings I"],
+		"uniques": ["[+1] Movement","[-25]% maintenance costs"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Swift Wings III",
+		"prerequisites": ["Swift Wings II"],
+		"uniques": ["Ignores Zone of Control","[-25]% maintenance costs"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Sky Drop I",
+		"uniques": ["[+15]% Strength <vs [{Ranged} {Land}] units>"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Sky Drop II",
+		"prerequisites": ["Sky Drop I"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Sky Drop III",
+		"prerequisites": ["Sky Drop II"],
+		"uniques": ["[+25]% Strength <vs [{Ranged} {Land}] units> <when attacking>"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Fire Breath I",
+		"prerequisites": ["Dragon"],
+		"uniques": ["[+20]% Strength <vs cities>","[+10]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Fire Breath II",
+		"prerequisites": ["Fire Breath I"],
+		"uniques": ["[+20]% Strength <vs cities>","[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Fire Breath III",
+		"prerequisites": ["Fire Breath II"],
+		"uniques": ["[+20]% Strength <vs cities>","No movement cost to pillage"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Beak & Talons I",
+		"prerequisites": ["Beast","Eagle's Vision"],
+		"uniques": ["[+15]% Strength <vs [{Melee} {Land}] units>"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Beak & Talons II",
+		"prerequisites": ["Beak & Talons I"],
+		"uniques": ["[+15]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Beak & Talons III",
+		"prerequisites": ["Beak & Talons II"],
+		"uniques": ["[+15]% Strength <vs [{Melee} {Land}] units>"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Hunter",
+		"prerequisites": ["Swift Wings III","Sky Drop III","Fire Breath III","Beak & Talons III"],
+		"uniques": ["[+33]% Strength <vs [{Wounded} {Land}] units>"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Air to Air Combat I",
+		"prerequisites": ["Swift Wings II","Sky Drop II","Fire Breath II","Beak & Talons II"],
+		"uniques": ["[+33]% Strength <vs [Flying] units>"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Air to Air Combat II",
+		"prerequisites": ["Air to Air Combat I"],
+		"uniques": ["[+33]% Strength <vs [Flying] units>"],
+		"unitTypes": ["Flying"]
+	},
+	{
+		"name": "Eagle's Vision",
+		"uniques": ["Can see over obstacles","Can see invisible [Land] units"],
+	},
+	{
+		"name": "Dragon",
+		"uniques": ["Dragon"],
+	},
+	{
+		"name": "Beast",
+		"uniques": ["Can start an [8]-turn golden age", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", 
+			"[+15]% Strength bonus for [Military] units within [2] tiles","Can instantly construct a [Citadel] improvement <by consuming this unit>"],
 	},
 	
 	
@@ -267,9 +370,9 @@
 	},
 	{
 		"name": "Sentry",
-		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
+		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I","Swift Wings I","Sky Drop I","Fire Breath I","Beak & Talons I","Eagle's Vision"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Melee","Mounted","Melee Water","Ranged Water"]
+		"unitTypes": ["Melee","Mounted","Melee Water","Ranged Water","Flying"]
 	},
 	{
 		"name": "Logistics",
@@ -329,15 +432,29 @@
 		"name": "Morale", // Heroic Epic
 		"uniques": ["[+15]% Strength"]
 	},
-		{
-		"name": "Hero", // Heroic Epic
+	{
+		"name": "Hero",
 		"uniques": ["Hero","Damage is ignored when determining unit Strength"]
+	},
+	{
+		"name": "Melee",
+		"uniques": ["Used for Prerequisites"]
+	},
+	{
+		"name": "Eagle's Escort",
+		"prerequisites": ["Melee", "Hero"],
+		"uniques": [
+			"Only available <with [SpecialEagle]>",
+			"May Paradrop up to [3] tiles from inside friendly territory",
+			"Can pass through impassable tiles",
+			"May withdraw before melee ([66]%) <when below [20] HP>"
+		],
+		"unitTypes": ["Melee", "Ranged", "Mounted", "Scout"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 		"uniques": ["All healing effects doubled"]
 	},
-	
 	// Hero
 	{
 		"name": "Strength I", 

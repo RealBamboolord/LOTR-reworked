@@ -373,6 +373,9 @@
 		"name": "Beorn's Hall",
 		"adjective": ["Beorn's Hall"],
 		"cityStateType": "Cultured",
+		"uniques": [
+            		"[+1 Science] from [Pasture] tiles [in all cities]",
+		],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -432,6 +435,7 @@
 		"cities": ["Dunland"]
 	},
 	{
+		//Pointless
 		"name": "Tol Morwen",
 		"adjective": ["Tol Morwen"],
 		"cityStateType": "Mercantile",
@@ -445,6 +449,7 @@
 		"cities": ["Tol Morwen"]
 	},
 	{
+		//Only used on one map
 		"name": "Numenor",
 		"adjective": ["Numenor"],
 		"cityStateType": "Maritime",
@@ -471,6 +476,7 @@
 		"cities": ["Bree"]
 	},
 	{
+		//"no one lives there canonically, but makes sense gameplaywise",
 		"name": "Himling",
 		"adjective": ["Himling"],
 		"cityStateType": "Maritime",
@@ -486,7 +492,12 @@
 	{
 		"name": "Eagle's Eyrie",
 		"adjective": ["Eagle's Eyrie"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Eagle's Eyrie",
+		"uniques": [
+            		"[+1 Production] from [Mountains] tiles [in all cities]",
+            		"No Maintenance costs for improvements in [Mountains] tiles",
+            		"Provides [1] [EaglePromotion]",
+		],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -498,7 +509,10 @@
 	{
 		"name": "Entwood",
 		"adjective": ["Entwood"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Entwood",
+		"uniques": [
+            		"[+1 Gold] from [Forest] tiles [in all cities]",
+		],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -510,7 +524,12 @@
 	{
 		"name": "Paths of the Dead",
 		"adjective": ["Paths of the Dead"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Paths of the Dead",
+		"uniques": [
+			"[-1] Movement <for [Dead Man of Dunharrow] units> <in [Enemy land] tiles>",
+			"[+20]% Strength <in [Friendly land] tiles>",
+			"[-20]% Strength <for [Dead Man of Dunharrow] units> <in [Friendly land] tiles>",
+		],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -523,6 +542,9 @@
 		"name": "Shelob's Lair",
 		"adjective": ["Shelob's Lair"],
 		"cityStateType": "Militaristic",
+		"uniques": [
+            		"[+20]% Production when constructing [Melee] units [in all cities]",
+		],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -532,6 +554,7 @@
 		"cities": ["Shelob's Lair"]
 	},
 	{
+		//makes no sense -> replace with Khand
 		"name": "Avathar",
 		"adjective": ["Avathar"],
 		"cityStateType": "Militaristic",
@@ -568,6 +591,7 @@
 		"cities": ["Lossoth"]
 	},
 	{
+		//Home of Radagast the Brown
 		"name": "Rhosgobel",
 		"adjective": ["Rhosgobel"],
 		"cityStateType": "Mercantile",
@@ -579,10 +603,14 @@
 		"innerColor": [151,125,0],
 		"cities": ["Rhosgobel"]
 	},
+	//old
 	{
 		"name": "Crissaegrim",
 		"adjective": ["Crissaegrim"],
 		"cityStateType": "Cultured",
+		"uniques": [
+			"Will not be chosen for new games"
+		],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -590,6 +618,22 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [51, 51, 255],
 		"cities": ["Crissaegrim"]
+	},
+	{
+		"name": "Umbar",
+		"adjective": ["Umbar"],
+		"cityStateType": "Umbar",
+		"uniques": [
+            		"[-66]% maintenance costs <for [Water] units>",
+			"When defeating a [{Barbarian} {Water}] unit, earn [15] Gold and recruit it <with [66]% chance>"
+		],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51, 51, 255],
+		"cities": ["Umbar"]
 	},
 
 	{
@@ -605,6 +649,7 @@
 		"cities": ["Kingdom of Rhovanion"]
 	},
 	{
+		//"settlement in Beleriand, pointless",
 		"name": "Ephel Brandir",
 		"adjective": ["Ephel Brandir"],
 		"cityStateType": "Mercantile",
