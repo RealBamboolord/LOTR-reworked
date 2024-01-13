@@ -822,7 +822,7 @@
 		"strength": 20,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Barbarian] units>","[+25]% Strength <when fighting units from a Civilization with more Cities than you>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Barbarian] units>","[+15]% Strength decreasing with distance from the capital","[+10]% Strength <when fighting in [Friendly Land] tiles>"],
 		"upgradesTo": "Longswordsman",
 		"attackSound": "metalhit"
 	},
