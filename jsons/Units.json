@@ -331,6 +331,7 @@
 			"[+100]% Strength <vs [Barbarian] units>",
 			"No defensive terrain bonus","No defensive terrain penalty","Damage is ignored when determining unit Strength",
 			"[-5] HP when healing","Heals [10] damage if it kills a unit",
+			"[+75]% maintenance costs",
 			"Can transform to [Beorning]",
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit",
