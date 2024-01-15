@@ -372,7 +372,7 @@
 	{
 		"name": "Beorn's Hall",
 		"adjective": ["Beorn's Hall"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Beorn's Hall",
 		"uniques": [
             		"[+1 Science] from [Pasture] tiles [in all cities]",
 		],
@@ -425,7 +425,7 @@
 	{
 		"name": "Dunland",
 		"adjective": ["Dunland"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Dunland",
 
 		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
 		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Dunland!",
@@ -541,7 +541,7 @@
 	{
 		"name": "Shelob's Lair",
 		"adjective": ["Shelob's Lair"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Shelob's Lair",
 		"uniques": [
             		"[+20]% Production when constructing [Melee] units [in all cities]",
 		],
