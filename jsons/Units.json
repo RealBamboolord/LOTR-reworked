@@ -662,7 +662,6 @@
 	{
 		"name": "Horseman",
 		"unitType": "Mounted",
-		"replaces": "Swordsman",
 		"movement": 4,
 		"strength": 15,
 		"cost": 75,
