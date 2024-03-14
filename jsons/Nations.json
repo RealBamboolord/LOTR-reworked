@@ -59,7 +59,7 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "For the White City",
 		"uniqueText": "Workers improve tiles 25% faster, receive a free Worker when you discover Pottery",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[-25]% tile improvement construction time","Free [Worker] appears <upon discovering [Pottery]>"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[-25]% construction time for [All] improvements","Free [Worker] appears <upon discovering [Pottery]>"],
 		"cities": ["Minas Tirith","Osgiliath","Ithilien","Cair Andros","Dol Amroth","Lamedon","Henneth Annun","Lossarnach","Lebennin","Anfalas","Belfalas","Morthond","Ringlo Vale","Andrast","Pelargir","Linhir","Tarnost","Ethring"]
 	},
 			{
