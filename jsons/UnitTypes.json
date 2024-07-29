@@ -32,12 +32,12 @@
     {
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
+        "uniques": ["Comment [Aircraft]", "[+4] Sight", "Can see over obstacles"]
     },
     {
         "name": "Bomber",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Comment [Aircraft]"]
     },
     {
         "name": "Missile",
