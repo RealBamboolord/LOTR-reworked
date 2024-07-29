@@ -164,7 +164,7 @@
 		"movement": 3,
 		"strength": 12,
 		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "May withdraw before melee ([100]%)"],
+		"uniques": ["Unbuildable", "Withdraws before melee combat <with [100]% chance>"],
 	},
 	{
 		"name": "Lieutenant Gothmog",
@@ -329,7 +329,7 @@
 			"[-25]% Strength <when defending> <vs [Land] units>",
 			"[+35]% Strength <when attacking> <when below [50] HP>",
 			"[+100]% Strength <vs [Barbarian] units>",
-			"No defensive terrain bonus","No defensive terrain penalty","Damage is ignored when determining unit Strength",
+			"No defensive terrain bonus","No defensive terrain penalty","No damage penalty for wounded units",
 			"[-5] HP when healing","Heals [10] damage if it kills a unit",
 			"[+75]% maintenance costs",
 			"Can transform to [Beorning]",
@@ -369,7 +369,7 @@
 		"requiredResource": "SpecialEagle",
 		"promotions": ["Eagle's Vision"],
 		"uniques": [
-			"May withdraw before melee ([50]%)", "Unable to capture cities",
+			"Withdraws before melee combat <with [50]% chance>", "Unable to capture cities",
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit",
 			"Only available <with [SpecialEagle]> <if [Good] is constructed>",
@@ -385,7 +385,7 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 56,
-		"obsoleteTech": "Iron Working",
+		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -1025,7 +1025,7 @@
 		"strength": 21,
 		"cost": 120,
 		"requiredTech": "Astronomy",
-		"uniques": ["[+1] Sight","May withdraw before melee ([80]%)"],
+		"uniques": ["[+1] Sight","Withdraws before melee combat <with [80]% chance>"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -1064,8 +1064,9 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Starts with 30 experience", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Formation I"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+		//Experience bonus removed and replaced by additionnal promotions as it was deprecated
+		"promotions": ["Formation I", "Shock I", "Shock II"],
 		"attackSound": "horse"
 	},
 	{
@@ -1174,9 +1175,10 @@
 		"upgradesTo": "Nazgul-Fellbeast",
 		"cost": 80,
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", 
-			"[+15]% Strength bonus for [Military] units within [2] tiles", "May be upgraded with Fellbeasts", "Consumes [1] [Nazgul]", 
-			"Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable"],
-		  "movement": 3
+			"[+15]% Strength bonus for [Military] units within [2] tiles", "Consumes [1] [Nazgul]", 
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable",
+			"Comment [May be upgraded with Fellbeasts]",]
+		"movement": 3
 	},
 	{
 		"name": "Nazgul-Fellbeast",
