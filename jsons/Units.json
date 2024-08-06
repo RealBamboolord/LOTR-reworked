@@ -385,7 +385,7 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 56,
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
