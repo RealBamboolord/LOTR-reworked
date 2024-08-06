@@ -267,7 +267,7 @@
 	},
 	{
 		"name": "Dragon",
-		"uniques": ["Dragon"],
+		"uniques": ["Comment [Dragon]"], //Alatar : Why is this empty ?
 	},
 	{
 		"name": "Beast",
@@ -434,11 +434,11 @@
 	},
 	{
 		"name": "Hero",
-		"uniques": ["Hero","Damage is ignored when determining unit Strength"]
+		"uniques": ["Comment [Hero]","No damage penalty for wounded units"]
 	},
 	{
 		"name": "Melee",
-		"uniques": ["Used for Prerequisites"]
+		"uniques": ["Comment [Used for Prerequisites]"]
 	},
 	{
 		"name": "Eagle's Escort",
@@ -447,7 +447,7 @@
 			"Only available <with [SpecialEagle]>",
 			"May Paradrop up to [3] tiles from inside friendly territory",
 			"Can pass through impassable tiles",
-			"May withdraw before melee ([66]%) <when below [20] HP>"
+			"Withdraws before melee combat <with [66]% chance> <when below [20] HP>"
 		],
 		"unitTypes": ["Melee", "Ranged", "Mounted", "Scout"]
 	},

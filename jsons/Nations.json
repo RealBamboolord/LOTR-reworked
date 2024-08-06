@@ -40,7 +40,7 @@
 		"adjective": ["Gondorian"],
 				"style": "motw",
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Hi Aragorn, heir to the ancient kings !",
 		"startIntroPart2": "You have come back to the ivory tower to lead your people against their many foes. The ancient evil is rising in the east, but danger may also com from the south and the haradrim or the north from the easterlings, the dwarves or even the elves. Will your allies in Rohan be ready to answer the call or will they be too occupied with Isengard ? Only you can now save and rebuild a strong and safe Gondor nation and... who knows, maybe reunite Gondor and Arnor ?",
@@ -59,7 +59,7 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "For the White City",
 		"uniqueText": "Workers improve tiles 25% faster, receive a free Worker when you discover Pottery",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[-25]% construction time for [All] improvements","Free [Worker] appears <upon discovering [Pottery]>"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[-25]% construction time for [All] improvements","Free [Worker] appears <upon discovering [Pottery] technology>"],
 		"cities": ["Minas Tirith","Osgiliath","Ithilien","Cair Andros","Dol Amroth","Lamedon","Henneth Annun","Lossarnach","Lebennin","Anfalas","Belfalas","Morthond","Ringlo Vale","Andrast","Pelargir","Linhir","Tarnost","Ethring"]
 	},
 			{
@@ -68,7 +68,7 @@
 		"adjective": ["Isengard"],
 				"style": "Orc",
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Hi Saruman, Leader of the mighty Istari",
 		"startIntroPart2": "After hundreds of years, the evil power of the east is returning and this time, good intentions won't be enough to stop it. As the leader of the Istari, sent from the West, you alone could even dream of facing him. But do you have the strengh you need or do you need to carve yourself a great empire before facing leading the offensive ? History will decide.",
@@ -87,7 +87,7 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "The Voice of Saruman",
 		"uniqueText": "67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment. +25% Production towards Land units in capital. Capital can struck a Lighting Bolt (1 per Era) on the nearby enemies."
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","[+25]% Production when constructing [Land] units [in capital]","May cast a lightning bolt"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","[+25]% Production when constructing [Land] units [in capital]","Comment [May cast a lightning bolt]"],
 		"cities": ["Isengard","Angrenost","Fords of Isen","Nan Curunir","Dol Baran","Angren River","Gwathlo","Methedras","Adorn","Wellinghall","Dunbog","Starkmoor","Pren Gwydh","Bonevales","Ral Methedras","Derndingle"]
 	},
 				{
@@ -115,7 +115,7 @@
 		"innerColor": [207, 120, 0],
 		"uniqueName": "Gather them all!",
 		"uniqueText": "Great Generals are generated 50% faster. Receives a free Nazgul when you discover Trapping. +10% Strength in Mordor Plains.",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Nazgul] is earned [50]% faster","Free [Nazgul] appears <upon discovering [Trapping]>","Gain a free [Nazgul Supply] [in capital]","[+10]% Strength <for [Land] units> <when fighting in [Mordor Plains] tiles>"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Nazgul] is earned [50]% faster","Free [Nazgul] appears <upon discovering [Trapping] technology>","Gain a free [Nazgul Supply] [in capital]","[+10]% Strength <for [Land] units> <when fighting in [Mordor Plains] tiles>"],
 		"cities": ["Barad Dur","Orodruin","Gorgoroth","Udun","Nurn","Dagorlad","Durthang","Cirith Gorgor","Ered Lithui","Ered Duath","Cirith Ungol","Morgul Pass","Black Gate","Nargroth","Morgai","Morannon","Seregost","Lithlad","Carach Angren"]
 	},
 					{
@@ -124,7 +124,7 @@
 		"adjective": ["Angmar"],
 		"startBias": ["Tundra"],
 				"style": "Orc",
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Hi King of Nine Riders",
 		"startIntroPart2": "The West is weak, Arnor is on its knees, Gondor is attacked on all sides, the elves and the dwarves are closing themselves from the outside. It is time to rise again and carve yourself a new kingdom. You can be the trusted and worthy servant of Sauron, or who knows, even seize the opportunity to be the new successor of Melkor and use the One Ring to rule over all living things on Middle Earth. The World may now be yours to grasp !",
@@ -171,7 +171,7 @@
 		"innerColor": [125, 145, 26],
 		"uniqueName": "Horror of the Deeps",
 		"uniqueText": "+15% Combat Bonus in Friendly Land for Land units. Melee units gain 50% more Experience from combat and can pillage without spending movement points when wounded. A Balrog appears in your capital when you discover Mining"
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+15]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>","No movement cost to pillage <for [{Wounded} {Melee}] units>","[50]% XP gained from combat <for [Melee] units>","Free [Balrog] appears <upon discovering [Mining]>"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+15]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>","No movement cost to pillage <for [{Wounded} {Melee}] units>","[50]% XP gained from combat <for [Melee] units>","Free [Balrog] appears <upon discovering [Mining] technology>"],
 		"cities": ["Moria","Goblin town","Withered Heath","Ettenmoors","High Pass","Misty Mountains","Grey Mountains","Dwarrodelf","Glaurung","Ancalagon","Scatha","Gram Mountain","Rhimdath","Cold Fields","Hoardale"]
 	},
 							{
@@ -207,7 +207,7 @@
 		"leaderName": "Elendil",
 				"style": "motw",
 		"adjective": ["Arnorian"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Rise, Elendil son of Amandil, first High King of the Realms in Exile.",
 		"startIntroPart2": "How terrible was the fall of Numenor, how sad the fate of the Kingsmen, with their home not only submerged by the sea but also traitor to the Valar and the Love of Eru. But a new dawn is rising. From the ashes, you may build a new home, a better home, in this new land, taken from the hands of the darkness and brought back to the light of the Valar. Will you be worthy of this new chance provided by Eru or will your legacy fall before the assault of the disguised ennemy, now raised in plain light ?",
@@ -235,7 +235,7 @@
 		"adjective": ["Easterling"],
 				"style": "Mote",
 		"startBias": ["Plains","Desert"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -290,7 +290,7 @@
 		"leaderName": "Elrond",
 		"adjective": ["Noldor"],
 				"style": "Elven",
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -346,7 +346,7 @@
 		"adjective": ["Shire"],
 		"style": "hobbit",
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Hi Peregrin Took, thirty second Thain of the Shire!",
 		//"startIntroPart2": "You have awaken from your long slumber, and now the rohirrims are counting on you to lead them to a brighter tomorrow. Your neighbours won't leave you much room for peace and you may have to carve your peace with the tip of the spear. But, thanks to your leadership, Rohan might become strong enough to tip the scale in a war between Gondor and Mordor, who knows ?",

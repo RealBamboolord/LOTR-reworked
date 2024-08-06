@@ -36,7 +36,7 @@
             "[+2 Culture] <before the [Second Age]>",
             "[+4 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
             "[+9 Culture] <starting from the [Fourth Age]>",
-            "Unlocks Eagle's Escort Promotion for Hero and Melee units",
+            "Comment [Unlocks Eagle's Escort Promotion for Hero and Melee units]",
             "Provides [1] [EaglePromotion]"
         ],
         "allyBonusUniques": [
@@ -45,7 +45,7 @@
             "[+17 Culture] <starting from the [Fourth Age]>",
             "[+1 Production] from [Mountains] tiles [in all cities]",
             "No Maintenance costs for improvements in [Mountains] tiles",
-            "Unlocks Eagle's Escort Promotion for Hero and Melee units",
+            "Comment [Unlocks Eagle's Escort Promotion for Hero and Melee units]",
             "Provides [1] [EaglePromotion]",
             "May buy [Great Eagle] units with [Gold] [in all cities] <if [Good] is constructed>"
         ],
@@ -117,8 +117,8 @@
         "allyBonusUniques": [
 		"Provides military units every ≈[20] turns",
 		"[+10]% Strength <in [Friendly land] tiles>",
-		"Gain the ability to make the men of the Mountain pledge an oath to you before the Third Age",
-		"When having an Oath, summon the dead with a unique world wonder when at war starting from the Third Age",
+		"Comment [Gain the ability to make the men of the Mountain pledge an oath to you before the Third Age]",
+		"Comment [When having an Oath, summon the dead with a unique world wonder when at war starting from the Third Age]",
 		"[-10]% Strength <for [Dead Man of Dunharrow] units> <in [Friendly land] tiles>"
 	],
         "color": [255, 0, 0]
