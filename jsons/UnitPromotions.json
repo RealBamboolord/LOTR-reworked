@@ -2,7 +2,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Melee Water","Ranged Water"]
 	},
 	
@@ -445,7 +445,7 @@
 		"prerequisites": ["Melee", "Hero"],
 		"uniques": [
 			"Only available <with [SpecialEagle]>",
-			"May Paradrop up to [3] tiles from inside friendly territory",
+			"May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>",
 			"Can pass through impassable tiles",
 			"Withdraws before melee combat <with [66]% chance> <when below [20] HP>"
 		],
@@ -483,7 +483,7 @@
 	},
 	{
 		"name": "Tunnel", 
-		"uniques": ["May Paradrop up to [8] tiles from inside friendly territory"],
+		"uniques": ["May Paradrop to [Land] tiles up to [8] tiles away <in [{Friendly} {Land}] tiles>"],
 	},
 	{
 		"name": "Ósanwe", 

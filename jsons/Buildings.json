@@ -4,17 +4,17 @@
 		{
 		"name": "Elven Ring1",
 		"cost": 0,
-		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Hidden until [1] social policy branches have been completed","Can only be built <in [in capital] cities>"]
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Unavailable <when number of [Completed Policy branches] is less than [1]>","Can only be built <in [in capital] cities>"]
 	},
 			{
 		"name": "Elven Ring2",
 		"cost": 0,
-		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Hidden until [2] social policy branches have been completed","Can only be built <in [in capital] cities>"]
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Unavailable <when number of [Completed Policy branches] is less than [2]>","Can only be built <in [in capital] cities>"]
 	},
 			{
 		"name": "Elven Ring3",
 		"cost": 0,
-		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Hidden until [3] social policy branches have been completed","Can only be built <in [in capital] cities>"]
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Ring]","Consumes [1] [Elven Rings]","Unavailable <when number of [Completed Policy branches] is less than [3]>","Can only be built <in [in capital] cities>"]
 	},
 			{
 		"name": "Men Ring1",
@@ -327,7 +327,7 @@
 		"uniqueTo": "Harad",
 		"hurryCostModifier": 40,
 		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","New [Haradrim Lancer] units start with [30] Experience [in this city]","Unsellable"],
+		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","New [Haradrim Lancer] units start with [30] XP [in this city]","Unsellable"],
 	},
 			{
 		"name": "Rings",
@@ -647,7 +647,7 @@
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -723,7 +723,7 @@
 		"name": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities",
+		"uniques": ["Removes extra unhappiness from annexed cities",
 			"Can only be built <in [in annexed cities] cities>"],
 		"requiredTech": "Mathematics"
 	},
@@ -1035,7 +1035,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [25] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [25] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
 	{
