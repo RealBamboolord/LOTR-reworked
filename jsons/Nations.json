@@ -31,7 +31,7 @@
 		"innerColor": [224, 218, 157],
 		"uniqueName": "Muster the Rohirrim",
 		"uniqueText": "Starts with Animal Husbandry. +1 Movement for all Mounted units, double quantity of Horses and Horses provide +1 Food."
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","Starts with [Animal Husbandry]","[+1] Movement <for [Mounted] units>","Double quantity of [Horses] produced","[+1 Food] from every [Horses]"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","Starts with [Animal Husbandry]","[+1] Movement <for [Mounted] units>","[+100]% [Horses] resource production","[+1 Food] from every [Horses]"],
 		"cities": ["Edoras","Helm's Deep","Snowbourn","Aldburg","Dunharrow","Grimslade","Fords of Isen","Gap of Rohan","Eastemnet","Eastfold","Westemnet","Folde","Westfold","The Wold","West-March","Minhiriath","Meduseld","Framsburg"]
 	},
 		{
@@ -199,7 +199,7 @@
 		"innerColor": [89, 88, 74],
 		"uniqueName": "Dwarven Riches",
 		"uniqueText": "+1 Production and +1 Gold from Strategic resources. Double quantity of all mined resources.",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[+1 Gold, +1 Production] from every [Strategic resource]","Double quantity of [Salt] produced","Double quantity of [Silver] produced","Double quantity of [Gems] produced","Double quantity of [Gold Ore] produced","Double quantity of [Copper] produced","Double quantity of [Mithril] produced","Double quantity of [Iron] produced"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[+1 Gold, +1 Production] from every [Strategic resource]","[+100]% [Salt] resource production","[+100]% [Silver] resource production","[+100]% [Gems] resource production","[+100]% [Gold Ore] resource production","[+100]% [Copper] resource production","[+100]% [Mithril] resource production","[+100]% [Iron] resource production"],
 		"cities": ["Erebor","Esgaroth","Ered Luin","Iron Hills","Belegost","Nogrod","Azanulbizar","Redhorn","Tumunhazar","Khazad Dum","Glittering Caves","Mount Dolmed","Silver Tooth","Caradhras","Fanuidhol","Anghabar","Amon Rudh","Mickleburg","Gabilgathol"]
 	},
 								{
@@ -282,7 +282,7 @@
 		"innerColor": [101, 10, 18],
 		"uniqueName": "Desert Tribes",
 		"uniqueText": "Receive triple Gold from Barbarian encampments and pillaging Cities. +1 Production and +1 Food from every Ivory and +2 Culture from each Oasis.",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","New [Haradrim Lancer] units start with [30] Experience [in all cities]","Receive triple Gold from Barbarian encampments and pillaging Cities","[+1 Production, +1 Food] from every [Ivory]","[+2 Culture] from every [Oasis]"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","New [Haradrim Lancer] units start with [30] XP [in all cities]","Receive [+200]% Gold from Barbarian encampments and pillaging Cities","[+1 Production, +1 Food] from every [Ivory]","[+2 Culture] from every [Oasis]"],
 		"cities": ["Harad","Haradwaith","Harondor","Far Harad","Sunland","Sutherland","Khand","Incanus","Harnen","Hasharin","Dalamyr","Karna","Badharkan","Hidar","Nafarat","Abrakan","Sunlending","Dharan"]
 	},
 	   {
@@ -365,7 +365,7 @@
 		"innerColor": [119, 39, 190],
 		"uniqueName": "The Road goes ever on",
 		"uniqueText": "-15% maintenance cost for buildings in all cities and +1 Happiness in cities on Grassland tiles. Roads cost 33% less maintenance and provide 1 Culture each during a Golden Age."
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[+1 Happiness] in cities on [Grassland] tiles","[+1 Culture] from every [Road] <during a Golden Age>","[-50]% maintenance on road & railroads","[-15]% maintenance cost for buildings [in all cities]"],
+		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[+1 Happiness] in cities on [Grassland] tiles","[+1 Culture] from every [Road] <during a Golden Age>","[-50]% maintenance on road & railroads","[-15]% maintenance cost for [all] buildings [in all cities]"],
 		"cities": ["Michel Delving","Tuckborough","Hobbiton","Waymoot","Bywater","Tookbank","Longbottom","Oatborton","Gamwich","Frogmorton","Whitfurrows","Brokenborings","Whitfurrows","Long Cleeve","Hardbottle","Whitwell","Scary","Dwaling","Little Delving","Overhill","Needlehole","Nobottle","Bucklebury","Crickhollow","Greenholm","Undertowers"]
 	},
 	//City-States

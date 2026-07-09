@@ -62,7 +62,7 @@
 		"strength": 5,
 		"rangedStrength": 10,
 		"cost": 75,
-		"uniques": ["Unbuildable","[+25]% Strength <when fighting in [Desert] tiles>","[+50]% Strength when stacked with [Mumakil]","Can transform to [Haradrim Archer]"],
+		"uniques": ["Unbuildable","[+25]% Strength <when fighting in [Desert] tiles>","[50]% Strength <when stacked with a [Mumakil] unit>","Can transform to [Haradrim Archer]"],
 		"attackSound": "arrow",
 	},
 	
@@ -449,7 +449,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit","Ignores terrain cost","[+33]% Strength when stacked with [Settler]","[+33]% Strength <vs [Barbarian] units> <when defending>"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit","Ignores terrain cost","[33]% Strength <when stacked with a [Settler] unit>","[+33]% Strength <vs [Barbarian] units> <when defending>"],
 		"attackSound": "nonmetalhit",
 	},
 	{
@@ -474,7 +474,7 @@
 		"movement": 3,
 		"strength": 5,
 		"cost": 25,
-		"uniques": ["May upgrade to [Horseman] through ruins-like effects", "Ignores terrain cost","[+33]% Strength when stacked with [Settler]","[+33]% Strength <vs [Barbarian] units> <when defending>"],
+		"uniques": ["May upgrade to [Horseman] through ruins-like effects", "Ignores terrain cost","[33]% Strength <when stacked with a [Settler] unit>","[+33]% Strength <vs [Barbarian] units> <when defending>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
