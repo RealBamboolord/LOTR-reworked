@@ -526,9 +526,9 @@
 		"adjective": ["Paths of the Dead"],
 		"cityStateType": "Paths of the Dead",
 		"uniques": [
-			"[-1] Movement <for [Dead Man of Dunharrow] units> <in [Enemy land] tiles>",
-			"[+20]% Strength <in [Friendly land] tiles>",
-			"[-20]% Strength <for [Dead Man of Dunharrow] units> <in [Friendly land] tiles>",
+			"[-1] Movement <for [Dead Man of Dunharrow] units> <in [Enemy Land] tiles>",
+			"[+20]% Strength <in [Friendly Land] tiles>",
+			"[-20]% Strength <for [Dead Man of Dunharrow] units> <in [Friendly Land] tiles>",
 		],
 
 		"declaringWar": "You leave us no choice. War it must be.",
