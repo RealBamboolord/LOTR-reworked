@@ -96,7 +96,7 @@
 		"movement": 4,
 		"strength": 14,
 		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "[300]% Strength <vs [Witch-King] units>"],
+		"uniques": ["Unbuildable", "[300]% Strength <vs [Witch-king] units>"],
 	},
 	{
 		"name": "Theoden",
@@ -418,7 +418,7 @@
 			"[+1000]% Strength <when defending>",
 			"Can pass through impassable tiles","All tiles cost 1 movement",
 			"Can see invisible [All] units","[-2] Sight",
-			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles","Can only attack [Miltary] units",
+			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles","Can only attack [Military] units",
 			"Unit will heal every turn, even if it performs an action","[-25] HP when healing","[-5] HP when healing <in [Friendly Land] tiles>",
 			"Never appears as a Barbarian unit",
 			"Unbuildable <in cities without a [Dead Supply]>"
